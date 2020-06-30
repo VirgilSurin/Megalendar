@@ -2,35 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04ede019-031a-4410-9ef3-958c9ca0f2ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/javafx-calendar-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/javafx-calendar-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/javafx-calendar-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/AnchorPaneNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/EventNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/FXMLMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/FullCalendarView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fullCalendar.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/EventDisplay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/AddEventBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/AddEventBox.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/Menu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.tar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/Megalendar-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Megalendar-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/Megalendar" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/Megalendar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/Megalendar.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/Megalendar.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/engine/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/engine/Agenda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/gui/AddEventBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/AddEventBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/gui/EventNode.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/gui/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,8 +143,17 @@
       <updated>1593469545001</updated>
       <workItem from="1593469546455" duration="1111000" />
       <workItem from="1593519369726" duration="2636000" />
-      <workItem from="1593544788821" duration="1416000" />
+      <workItem from="1593544788821" duration="1542000" />
+      <workItem from="1593557807621" duration="1789000" />
     </task>
+    <task id="LOCAL-00001" summary="calendar view from a git">
+      <created>1593546292530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593546292530</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +161,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="calendar view from a git" />
+    <option name="LAST_COMMIT_MESSAGE" value="calendar view from a git" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1593545653621">
@@ -174,10 +173,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593524955387" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1593546187986">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1593558876599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593546187986" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593558876599" />
     <state x="629" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593545604228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -186,37 +185,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593545931941" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1593546252225">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1593546288587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593546252225" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1593546043408">
+    <state x="585" y="114" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593546288587" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1593559040506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593546043408" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1593546043407">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593559040506" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1593559040506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593546043407" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1593546043407">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593559040506" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1593559040506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593546043407" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1593546043407">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593559040506" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1593559040506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593546043407" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593559040506" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1593545198171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593545198171" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1593546274025">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1593546326213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593546274025" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1593544831066">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593546326213" />
+    <state x="2344" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1593557903843">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593544831066" />
+    <state x="2344" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593557903843" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1593558318248">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593558318248" />
   </component>
 </project>

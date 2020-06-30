@@ -13,7 +13,7 @@ import java.sql.Date;
 import java.util.ArrayList;
 
 public class AddEventBox {
-    public static void Display(String title, String message, ArrayList<Event> eventList){
+    public static void Display(String title, String message, ArrayList<Event> eventList, Menu menu){
         Stage window = new Stage();
 
         window.initModality(Modality.APPLICATION_MODAL); //Blocs events towards the caller.
@@ -39,6 +39,7 @@ public class AddEventBox {
         createButton.setOnAction(e -> {
             Event newEvent = new Event(Date.valueOf(datePicker.getValue()), nameField.getText(), descField.getText());
             eventList.add(newEvent);
+            menu.refreshEvent();
             window.close();
         });
 

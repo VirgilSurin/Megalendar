@@ -1,7 +1,9 @@
 package be.surin.engine;
 
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.GregorianCalendar;
 
 public class Agenda {
@@ -34,7 +36,7 @@ public class Agenda {
         int i = 1; //0 is already done
         while (i < eventList.size()) {
             Event temp = eventList.get(i);
-            if (temp.getDate().before(currentNext.getDate())) {
+            if (temp.getDate().before(currentNext.getDate()) && temp.getDate().after(Date.from(Instant.now()))) {
                 currentNext = temp;
             }
             i++;
