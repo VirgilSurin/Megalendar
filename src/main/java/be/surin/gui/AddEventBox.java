@@ -51,6 +51,7 @@ public class AddEventBox {
         layout.setAlignment(Pos.CENTER);
 
         Scene scene = new Scene(layout);
+        layout.setPrefSize(400,450);
         window.setScene(scene);
         window.showAndWait(); //Prevent doing anything before minimising or closing the window.
 
