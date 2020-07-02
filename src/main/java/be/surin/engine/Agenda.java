@@ -30,6 +30,7 @@ public class Agenda {
      */
     public Event getNextEvent() {
         //TODO add function that add events in chronological order into the eventList
+        //TODO do not return event that passed.
         //add not yet implemented - currently using a linear search to find the next event
         Event currentNext = eventList.get(0); //first item
         int i = 1; //0 is already done

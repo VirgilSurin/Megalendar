@@ -32,6 +32,7 @@ public class AddEventBox {
         TextArea nameText = new TextArea();
         nameText.setMaxSize(50,25);
         nameBox.getChildren().addAll(nameLabel, nameText);
+        nameBox.setAlignment(Pos.CENTER);
 
         //time zone ----------------------------------------------------------------------------------------------------
         HBox timeBox = new HBox();
@@ -54,6 +55,7 @@ public class AddEventBox {
 
         //event hour (from-to)---------------------------------------------------------------------------------------
         //TODO get rid of the duplicated code
+
         ChoiceBox<Integer> fromHour = new ChoiceBox<>();
         fromHour.getItems().addAll(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23);
         fromHour.setValue(0);
@@ -73,15 +75,27 @@ public class AddEventBox {
         VBox stageDateBox = new VBox();
 
         HBox dateBoxPick = new HBox();
-        if (allDay.selectedProperty().getValue()) {
-            dateBoxPick.getChildren().clear();
-            dateBoxPick.getChildren().addAll(fromLabel, fromDatePick, fromHour, fromMin,
-                    toLabel, toDatePick, toHour, toMin);
-        } else {
-            dateBoxPick.getChildren().clear();
-            dateBoxPick.getChildren().add(soloDatePick);
-        }
+
+        //TODO case where toTime is before fromTime (dumb user...)
+        //set-up of date/hour selection according to allDay status (default is unchecked)
+        allDay.setSelected(false);
+        dateBoxPick.getChildren().clear();
+        dateBoxPick.getChildren().addAll(fromLabel, fromDatePick, fromHour, fromMin,
+                toLabel, toDatePick, toHour, toMin);
+        allDay.selectedProperty().addListener((v, oldValue, newValue)  -> {
+            if (!allDay.selectedProperty().getValue()) {
+                dateBoxPick.getChildren().clear();
+                dateBoxPick.getChildren().addAll(fromLabel, fromDatePick, fromHour, fromMin,
+                        toLabel, toDatePick, toHour, toMin);
+            } else {
+                dateBoxPick.getChildren().clear();
+                dateBoxPick.getChildren().add(soloDatePick);
+            }
+        } );
+        dateBoxPick.setAlignment(Pos.CENTER);
+        dateBox.setAlignment(Pos.CENTER);
         stageDateBox.getChildren().addAll(dateBox, dateBoxPick);
+        stageDateBox.setAlignment(Pos.CENTER);
 
         //Description --------------------------------------------------------------------------------------------------
         VBox descBox = new VBox();
@@ -89,6 +103,7 @@ public class AddEventBox {
         TextArea descText = new TextArea();
         descText.setMaxSize(200,150);
         descBox.getChildren().addAll(descLabel, descText);
+        descBox.setAlignment(Pos.CENTER);
 
 
 
