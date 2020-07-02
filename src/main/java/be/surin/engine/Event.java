@@ -1,59 +1,73 @@
 package be.surin.engine;
 
-import java.time.Instant;
-import java.time.ZoneOffset;
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Event {
 
-    private Date date;
-    private Instant instant;
+    private LocalDate fromDate;
+    private LocalDate toDate;
+    private HourMin fromHour;
+    private HourMin toHour;
     private String name;
     private String description;
 
-    public Event(Date date, Instant instant, String name, String description) {
-        this.date = date;
-        this.instant = instant;
+    public Event(LocalDate fromDate, LocalDate toDate, HourMin fromHour, HourMin toHour, String name, String description) {
+        this.fromDate = fromDate;
+        this.toDate = toDate;
+        this.fromHour = fromHour;
+        this.toHour = toHour;
         this.name = name;
         this.description = description;
 
     }
 
-    public static void main(String[] args) {
-        Instant instant = Instant.now();
-        System.out.println(instant.atZone(ZoneOffset.systemDefault()).getHour());
-        System.out.println(instant.atZone(ZoneOffset.systemDefault()).getMinute());
+    //getters and setters, lust be fully editable
+
+    public LocalDate getFromDate() {
+        return fromDate;
     }
 
-    public Date getDate() {
-        return date;
+    public void setFromDate(LocalDate fromDate) {
+        this.fromDate = fromDate;
+    }
+
+    public LocalDate getToDate() {
+        return toDate;
+    }
+
+    public void setToDate(LocalDate toDate) {
+        this.toDate = toDate;
+    }
+
+    public HourMin getFromHour() {
+        return fromHour;
+    }
+
+    public void setFromHour(HourMin fromHour) {
+        this.fromHour = fromHour;
+    }
+
+    public HourMin getToHour() {
+        return toHour;
+    }
+
+    public void setToHour(HourMin toHour) {
+        this.toHour = toHour;
     }
 
     public String getName() {
         return name;
     }
 
-    public String getDescription() {
-        return description;
-    }
-
-    public Instant getInstant() {
-        return  instant;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public String getDescription() {
+        return description;
     }
 
-    public void setInstant(Instant instant) {
-        this.instant = instant;
+    public void setDescription(String description) {
+        this.description = description;
     }
 }
