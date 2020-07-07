@@ -11,6 +11,7 @@ public class Event {
     private String name;
     private String description;
 
+
     public Event(LocalDate fromDate, LocalDate toDate, HourMin fromHour, HourMin toHour, String name, String description) {
         this.fromDate = fromDate;
         this.toDate = toDate;

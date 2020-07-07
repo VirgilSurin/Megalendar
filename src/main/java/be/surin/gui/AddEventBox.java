@@ -41,8 +41,8 @@ public class AddEventBox {
         HBox dateBox = new HBox();
         Label dateLabel = new Label("Pick date(s) :");
         CheckBox allDay = new CheckBox();
-        allDay.setText("All day event : ");
-        dateBox.getChildren().addAll(dateLabel, allDay);
+        Label allDayText = new Label("All day event :");
+        dateBox.getChildren().addAll(allDayText, allDay, dateLabel);
 
         //from-to option
         Label fromLabel = new Label("from ");
