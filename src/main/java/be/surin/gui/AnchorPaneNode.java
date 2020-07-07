@@ -19,8 +19,9 @@ public class AnchorPaneNode extends AnchorPane {
      */
     public AnchorPaneNode(Node... children) {
         super(children);
-        // Add action handler for mouse clicked
-        this.setOnMouseClicked(e -> System.out.println("This pane's date is: " + date));
+        //Display a timeline of the events for the day
+        this.setOnMouseClicked(e ->
+            DailyTimelineBox.Display("Timeline", "Timeline of the day : " + date, 600));
     }
 
     public LocalDate getDate() {
