@@ -14,7 +14,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class AddEventBox {
-    public static void Display(String title, String message, ArrayList<Event> eventList, Menu menu){
+    public static void Display(String title, String message, ArrayList<Event> eventList){
         Stage window = new Stage();
 
         window.initModality(Modality.APPLICATION_MODAL); //Blocs events towards the caller.
@@ -123,7 +123,7 @@ public class AddEventBox {
                 Event newEvent = new Event(fromD, toD, fromH, toH, nameText.getText(), descText.getText());
                 eventList.add(newEvent);
             }
-            menu.refreshEvent();
+            CalendarMenu.refreshEvent();
             window.close();
         });
 
