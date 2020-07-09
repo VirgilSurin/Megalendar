@@ -64,7 +64,7 @@ public class DailyTimelineBox {
                     System.out.println(e.toString());
                     System.out.println(last.toString());
                     if (last != null) {
-                        if (!e.copy().collide(last.copy())) { //TODO Put back
+                        if (!e.copy().collide(last.copy())) {
                             eventColumns[index].addLast(e.copy());
                             isInserted = true;
                         }
@@ -85,6 +85,10 @@ public class DailyTimelineBox {
             timelines[i].setGridLinesVisible(true);
         }
 
+        /*
+
+        // Note: Some conditions here are not written because it's expected that every event
+        // is an event of the day "date"
         for (int i = 0; i < numberColumns; i++) {
             HourMin testTime = new HourMin(0, 0);
             Event testEvent = eventColumns[i].pollFirst();
@@ -92,8 +96,12 @@ public class DailyTimelineBox {
             while (testEvent != null) {
                 if (testEvent.getFromDate().isBefore(date)) {
                     AnchorPane ap = new AnchorPane();
-                    ap.setPrefSize(120,Event.length(testEvent.getFromDate(), testEvent.getFromHour(),
-                            testEvent.getToDate(), testEvent.getToHour()));
+                    int size;
+                    if (testEvent.getToDate().isEqual(date))
+                        size = Event.length(date, new HourMin(0, 0), date, testEvent.getToHour());
+                    else
+                        size = 60*24;
+                    ap.setPrefSize(120, size);
                     timelines[i].add(ap,0,index);
                     testTime = testEvent.getToHour();
                     testEvent = eventColumns[i].pollFirst();
@@ -107,13 +115,20 @@ public class DailyTimelineBox {
                         timelines[i].add(ap,0,index);
                         index++;
                     }
-                    AnchorPane ap = new AnchorPane();
-                    ap.setPrefSize(120,Event.length(date, testEvent.getFromHour(),
-                            date, testEvent.getToHour()));
-                    timelines[i].add(ap,0,index);
-                    testTime = testEvent.getToHour();
-                    testEvent = eventColumns[i].pollFirst();
-                    index++;
+                    else {
+                        AnchorPane ap = new AnchorPane();
+                        if (testEvent.getToDate().isAfter(date))
+                            ap.setPrefSize(120, Event.length(date, testTime,
+                                    date.plusDays(1), new HourMin(0, 0))); //TODO test this shit
+                        else {
+                            ap.setPrefSize(120, Event.length(date, testTime,
+                                    testEvent.getToDate(), testEvent.getToHour()));
+                        }
+                        timelines[i].add(ap, 0, index);
+                        testTime = testEvent.getToHour();
+                        testEvent = eventColumns[i].pollFirst();
+                        index++;
+                    }
                 }
                 else {
                     AnchorPane ap = new AnchorPane();
@@ -126,6 +141,65 @@ public class DailyTimelineBox {
                 }
             }
             //TODO The last tiny bits (after the last events)
+        }
+
+         */
+
+        for (int i = 0; i < numberColumns; i++) {
+            HourMin testTime = new HourMin(0, 0);
+            Event testEvent = eventColumns[i].pollFirst();
+            int index = 0;
+            int size;
+            while (testEvent != null) {
+                if (testEvent.getFromDate().isBefore(date)) {
+                    AnchorPane ap = new AnchorPane();
+                    if (testEvent.getToDate().isEqual(date))
+                        size = Event.length(date, testTime, date, testEvent.getToHour());
+                    else
+                        size = 60 * 24;
+                    ap.setPrefSize(120, size);
+                    timelines[i].add(ap, 0, index);
+                    testTime = testEvent.getToHour();
+                    testEvent = eventColumns[i].pollFirst();
+                    index++;
+                }
+                else if (testTime.getHour() < testEvent.getFromHour().getHour()) {
+                    AnchorPane ap = new AnchorPane();
+                    size = 60 - testTime.getMin();
+                    ap.setPrefSize(120, size);
+                    timelines[i].add(ap, 0, index);
+                    testTime = new HourMin(testTime.getHour()+1, 0);
+                    index++;
+                }
+                else if (testTime.getMin() < testEvent.getFromHour().getMin()) {
+                    AnchorPane ap = new AnchorPane();
+                    size = testEvent.getFromHour().getMin() - testTime.getMin();
+                    ap.setPrefSize(120, size);
+                    timelines[i].add(ap, 0, index);
+                    testTime = testEvent.getFromHour();
+                    index++;
+                }
+                //TODO Make the event stand out from the rest
+                else {
+                    if (testEvent.getToDate().isEqual(date)) {
+                        AnchorPane ap = new AnchorPane();
+                        size = Event.length(testEvent.getFromDate(), testEvent.getFromHour(),
+                                testEvent.getToDate(), testEvent.getToHour());
+                        ap.setPrefSize(120, size);
+                        timelines[i].add(ap, 0, index);
+                        testTime = testEvent.getToHour();
+                        testEvent = eventColumns[i].pollFirst();
+                        index++;
+                    }
+                    else {
+                        AnchorPane ap = new AnchorPane();
+                        size = (24 - testEvent.getFromHour().getHour()) * 60 + (60 - testEvent.getFromHour().getMin());
+                        ap.setPrefSize(120, size);
+                        timelines[i].add(ap, 0, index);
+                        testEvent = null;
+                    }
+                }
+            }
         }
 
         HBox timelineHBox = new HBox(10);

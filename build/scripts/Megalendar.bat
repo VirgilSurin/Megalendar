@@ -84,6 +84,7 @@ set CMD_LINE_ARGS=%*
 
 set CLASSPATH=%APP_HOME%\lib\Megalendar-1.0-SNAPSHOT.jar;%APP_HOME%\lib\javafx-fxml-13-win.jar;%APP_HOME%\lib\javafx-controls-13-win.jar;%APP_HOME%\lib\javafx-controls-13.jar;%APP_HOME%\lib\javafx-graphics-13-win.jar;%APP_HOME%\lib\javafx-graphics-13.jar;%APP_HOME%\lib\javafx-base-13-win.jar;%APP_HOME%\lib\javafx-base-13.jar
 
+
 @rem Execute Megalendar
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %MEGALENDAR_OPTS%  -classpath "%CLASSPATH%" be.surin.gui.Menu %CMD_LINE_ARGS%
 

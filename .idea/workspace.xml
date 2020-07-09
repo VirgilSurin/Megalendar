@@ -10,21 +10,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/engine/Agenda.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/engine/Agenda.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/engine/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/engine/Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/AddEventBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/AddEventBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/AnchorPaneNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/AnchorPaneNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/CalendarMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/CalendarMenu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/DailyTimelineBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/DailyTimelineBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/Test.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.tar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/Megalendar-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Megalendar-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/engine/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/engine/Agenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/Megalendar" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/Megalendar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/Megalendar.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/Megalendar.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/engine/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/engine/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/gui/AddEventBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/AddEventBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/gui/AnchorPaneNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/AnchorPaneNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/gui/CalendarMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/CalendarMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/gui/DailyTimelineBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/DailyTimelineBox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,6 +135,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.surin.gui.Menu" />
+      <module name="Megalendar.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.surin.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.surin.engine.Test" />
+      <module name="Megalendar.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.surin.engine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Calendar [build run]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -159,6 +183,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Menu" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Event" />
         <item itemvalue="Application.Main" />
       </list>
@@ -189,6 +215,7 @@
       <workItem from="1594130489138" duration="9000" />
       <workItem from="1594207413452" duration="30391000" />
       <workItem from="1594285045040" duration="12426000" />
+      <workItem from="1594307790699" duration="6100000" />
     </task>
     <task id="LOCAL-00001" summary="calendar view from a git">
       <created>1593546292530</created>
@@ -265,25 +292,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="114" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593709781173" />
-    <state width="1493" height="195" key="GridCell.Tab.0.bottom" timestamp="1594299647732">
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom" timestamp="1594314974337">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594299647732" />
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594314974337" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594138454459" />
-    <state width="1493" height="195" key="GridCell.Tab.0.center" timestamp="1594299647732">
+    <state width="1493" height="195" key="GridCell.Tab.0.center" timestamp="1594314974337">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594299647732" />
+    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594314974337" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594138454459" />
-    <state width="1493" height="195" key="GridCell.Tab.0.left" timestamp="1594299647732">
+    <state width="1493" height="195" key="GridCell.Tab.0.left" timestamp="1594314974337">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594299647732" />
+    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594314974337" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594138454459" />
-    <state width="1493" height="195" key="GridCell.Tab.0.right" timestamp="1594299647732">
+    <state width="1493" height="195" key="GridCell.Tab.0.right" timestamp="1594314974337">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594299647732" />
+    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594314974337" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594138454459" />
     <state x="672" y="236" key="MultipleFileMergeDialog" timestamp="1593618097847">
       <screen x="0" y="0" width="1920" height="1040" />
