@@ -85,66 +85,8 @@ public class DailyTimelineBox {
             timelines[i].setGridLinesVisible(true);
         }
 
-        /*
-
         // Note: Some conditions here are not written because it's expected that every event
         // is an event of the day "date"
-        for (int i = 0; i < numberColumns; i++) {
-            HourMin testTime = new HourMin(0, 0);
-            Event testEvent = eventColumns[i].pollFirst();
-            int index = 0;
-            while (testEvent != null) {
-                if (testEvent.getFromDate().isBefore(date)) {
-                    AnchorPane ap = new AnchorPane();
-                    int size;
-                    if (testEvent.getToDate().isEqual(date))
-                        size = Event.length(date, new HourMin(0, 0), date, testEvent.getToHour());
-                    else
-                        size = 60*24;
-                    ap.setPrefSize(120, size);
-                    timelines[i].add(ap,0,index);
-                    testTime = testEvent.getToHour();
-                    testEvent = eventColumns[i].pollFirst();
-                    index++;
-                }
-                else if (testTime.getHour() == testEvent.getFromHour().getHour()) {
-                    if (testTime.getMin() != testEvent.getFromHour().getMin()) {
-                        AnchorPane ap = new AnchorPane();
-                        ap.setPrefSize(120,Event.length(date, testTime,
-                                date, testEvent.getFromHour()));
-                        timelines[i].add(ap,0,index);
-                        index++;
-                    }
-                    else {
-                        AnchorPane ap = new AnchorPane();
-                        if (testEvent.getToDate().isAfter(date))
-                            ap.setPrefSize(120, Event.length(date, testTime,
-                                    date.plusDays(1), new HourMin(0, 0))); //TODO test this shit
-                        else {
-                            ap.setPrefSize(120, Event.length(date, testTime,
-                                    testEvent.getToDate(), testEvent.getToHour()));
-                        }
-                        timelines[i].add(ap, 0, index);
-                        testTime = testEvent.getToHour();
-                        testEvent = eventColumns[i].pollFirst();
-                        index++;
-                    }
-                }
-                else {
-                    AnchorPane ap = new AnchorPane();
-                    ap.setPrefSize(120,60);
-                    timelines[i].add(ap,0,index);
-                    if (testTime.getHour() != 23) //DEBUG Because of infinite loop go over 24 TODO Remove
-                        testTime = new HourMin(testTime.getHour()+1, testTime.getMin());
-                    //testTime = testEvent.getToHour();
-                    index++;
-                }
-            }
-            //TODO The last tiny bits (after the last events)
-        }
-
-         */
-
         for (int i = 0; i < numberColumns; i++) {
             HourMin testTime = new HourMin(0, 0);
             Event testEvent = eventColumns[i].pollFirst();
@@ -153,13 +95,16 @@ public class DailyTimelineBox {
             while (testEvent != null) {
                 if (testEvent.getFromDate().isBefore(date)) {
                     AnchorPane ap = new AnchorPane();
-                    if (testEvent.getToDate().isEqual(date))
+                    if (testEvent.getToDate().isEqual(date)) {
                         size = Event.length(date, testTime, date, testEvent.getToHour());
-                    else
+                        testTime = testEvent.getToHour();
+                    }
+                    else {
                         size = 60 * 24;
+                        testTime = null;
+                    }
                     ap.setPrefSize(120, size);
                     timelines[i].add(ap, 0, index);
-                    testTime = testEvent.getToHour();
                     testEvent = eventColumns[i].pollFirst();
                     index++;
                 }
@@ -196,7 +141,32 @@ public class DailyTimelineBox {
                         size = (24 - testEvent.getFromHour().getHour()) * 60 + (60 - testEvent.getFromHour().getMin());
                         ap.setPrefSize(120, size);
                         timelines[i].add(ap, 0, index);
+                        testTime = null;
                         testEvent = null;
+                        index++;
+                    }
+                }
+            }
+            // testTime is null iff the timeline has been already completed
+            if (testTime != null) {
+                if (testTime.getMin() != 0) {
+                    AnchorPane ap = new AnchorPane();
+                    size = 60 - testTime.getMin();
+                    ap.setPrefSize(120, size);
+                    timelines[i].add(ap, 0, index);
+                    index++;
+                    if (testTime.getHour() == 23)
+                        testTime = null;
+                    else
+                        testTime = new HourMin(testTime.getHour()+1, 0);
+                }
+                if (testTime != null) {
+                    for (int hour = testTime.getHour(); hour < 24; hour++) {
+                        AnchorPane ap = new AnchorPane();
+                        size = 60;
+                        ap.setPrefSize(120, size);
+                        timelines[i].add(ap, 0, index);
+                        index++;
                     }
                 }
             }
