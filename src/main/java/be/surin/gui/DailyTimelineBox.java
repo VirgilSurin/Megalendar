@@ -64,7 +64,7 @@ public class DailyTimelineBox {
                     System.out.println(e.toString());
                     System.out.println(last.toString());
                     if (last != null) {
-                        if (!e.copy().collide(last.copy())) {
+                        if (!e.copy().collide(last.copy())) { //TODO Put back
                             eventColumns[index].addLast(e.copy());
                             isInserted = true;
                         }
