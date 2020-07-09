@@ -49,4 +49,8 @@ public class CalendarMenu {
             mainPane.setBottom(eventDisplay.display());
         }
     }
+
+    public static Profile getCurrentProfile() {
+        return currentProfile;
+    }
 }

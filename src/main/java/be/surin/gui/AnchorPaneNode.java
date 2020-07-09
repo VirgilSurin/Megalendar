@@ -21,7 +21,7 @@ public class AnchorPaneNode extends AnchorPane {
         super(children);
         //Display a timeline of the events for the day
         this.setOnMouseClicked(e ->
-            DailyTimelineBox.Display("Timeline", "Timeline of the day : " + date, 600));
+            DailyTimelineBox.Display("Timeline", date, 600));
     }
 
     public LocalDate getDate() {

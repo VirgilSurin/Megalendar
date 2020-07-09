@@ -117,7 +117,9 @@ public class AddEventBox {
             HourMin fromH = new HourMin(fromHour.getValue(), fromMin.getValue());
             HourMin toH = new HourMin(toHour.getValue(), toMin.getValue());
             if (allDay.selectedProperty().getValue()) {
-                Event newEvent = new Event(soloD, null, null, null, nameText.getText(), descText.getText());
+                Event newEvent = new Event(soloD, soloD.plusDays(1),
+                        new HourMin(0, 0), new HourMin(0, 0),
+                        nameText.getText(), descText.getText());
                 eventList.add(newEvent);
             } else {
                 Event newEvent = new Event(fromD, toD, fromH, toH, nameText.getText(), descText.getText());
