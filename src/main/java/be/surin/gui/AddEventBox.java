@@ -30,13 +30,14 @@ public class AddEventBox {
         HBox nameBox = new HBox();
         Label nameLabel = new Label("Event name :");
         TextArea nameText = new TextArea();
-        nameText.setMaxSize(50,25);
+        nameText.setMaxSize(75,25);
+        nameText.setMinSize(75,25);
         nameBox.getChildren().addAll(nameLabel, nameText);
         nameBox.setAlignment(Pos.CENTER);
 
         //time zone ----------------------------------------------------------------------------------------------------
-        HBox timeBox = new HBox();
-        timeBox.setSpacing(25);
+        HBox fromBox = new HBox();
+        HBox toBox = new HBox();
         //event date (from-to)---------------------------------------------------------------------------------------
         HBox dateBox = new HBox();
         Label dateLabel = new Label("Pick date(s) :");
@@ -49,9 +50,11 @@ public class AddEventBox {
         Label toLabel = new Label("to ");
         //date
         DatePicker fromDatePick = new DatePicker();
-        fromDatePick.setMaxSize(50,25);
+        fromDatePick.setMinSize(115, 22);
+        fromDatePick.setMaxSize(115,22);
         DatePicker toDatePick = new DatePicker();
-        toDatePick.setMaxSize(50,25);
+        toDatePick.setMinSize(115,22);
+        toDatePick.setMaxSize(115,22);
 
         //event hour (from-to)---------------------------------------------------------------------------------------
         //TODO get rid of the duplicated code
@@ -69,31 +72,51 @@ public class AddEventBox {
         toMin.getItems().addAll(0,5,10,15,20,25,30,35,40,45,50,55);
         toMin.setValue(0);
 
+        fromHour.setMinSize(50,22);
+        fromHour.setMaxSize(50,22);
+        toHour.setMinSize(50,22);
+        toHour.setMaxSize(50,22);
+
+        fromMin.setMaxSize(50,22);
+        fromMin.setMinSize(50,22);
+        toMin.setMaxSize(50,22);
+        toMin.setMinSize(50,22);
+
         DatePicker soloDatePick = new DatePicker();
-        soloDatePick.setMaxSize(50,25);
+        soloDatePick.setMaxSize(115,22);
 
         VBox stageDateBox = new VBox();
 
-        HBox dateBoxPick = new HBox();
+        VBox dateBoxPick = new VBox();
 
         //TODO case where toTime is before fromTime (dumb user...)
         //set-up of date/hour selection according to allDay status (default is unchecked)
         allDay.setSelected(false);
         dateBoxPick.getChildren().clear();
-        dateBoxPick.getChildren().addAll(fromLabel, fromDatePick, fromHour, fromMin,
-                toLabel, toDatePick, toHour, toMin);
+        fromBox.getChildren().clear();
+        toBox.getChildren().clear();
+        fromBox.getChildren().addAll(fromLabel, fromDatePick, fromHour, fromMin);
+        toBox.getChildren().addAll(toLabel, toDatePick, toHour, toMin);
+        dateBoxPick.getChildren().addAll(fromBox, toBox);
+
         allDay.selectedProperty().addListener((v, oldValue, newValue)  -> {
             if (!allDay.selectedProperty().getValue()) {
                 dateBoxPick.getChildren().clear();
-                dateBoxPick.getChildren().addAll(fromLabel, fromDatePick, fromHour, fromMin,
-                        toLabel, toDatePick, toHour, toMin);
+                fromBox.getChildren().clear();
+                toBox.getChildren().clear();
+                fromBox.getChildren().addAll(fromLabel, fromDatePick, fromHour, fromMin);
+                toBox.getChildren().addAll(toLabel, toDatePick, toHour, toMin);
+                dateBoxPick.getChildren().addAll(fromBox, toBox);
             } else {
                 dateBoxPick.getChildren().clear();
                 dateBoxPick.getChildren().add(soloDatePick);
             }
         } );
+        fromBox.setAlignment(Pos.CENTER);
+        toBox.setAlignment(Pos.CENTER);
         dateBoxPick.setAlignment(Pos.CENTER);
         dateBox.setAlignment(Pos.CENTER);
+        dateBoxPick.setSpacing(10);
         stageDateBox.getChildren().addAll(dateBox, dateBoxPick);
         stageDateBox.setAlignment(Pos.CENTER);
 
@@ -106,25 +129,33 @@ public class AddEventBox {
         descBox.setAlignment(Pos.CENTER);
 
 
-
-
         //create an event with the current parameters and add it to the list
         Button createButton = new Button("Create the event");
         createButton.setOnAction(e -> {
-            LocalDate fromD = fromDatePick.getValue();
-            LocalDate toD = toDatePick.getValue();
-            LocalDate soloD = soloDatePick.getValue();
-            HourMin fromH = new HourMin(fromHour.getValue(), fromMin.getValue());
-            HourMin toH = new HourMin(toHour.getValue(), toMin.getValue());
-            if (allDay.selectedProperty().getValue()) {
-                Event newEvent = new Event(soloD, null, null, null, nameText.getText(), descText.getText());
-                eventList.add(newEvent);
+            if ( (allDay.isSelected() && soloDatePick.getValue() == null)
+                    || (!allDay.isSelected() && fromDatePick.getValue() == null)
+                    || (!allDay.isSelected() && toDatePick.getValue() == null)
+                    || nameText.getText() == null
+                    || descText.getText() == null) {
+                AlertBox.Display("Wrong parameters", "please enter correct parameters.");
             } else {
-                Event newEvent = new Event(fromD, toD, fromH, toH, nameText.getText(), descText.getText());
-                eventList.add(newEvent);
+                LocalDate fromD = fromDatePick.getValue();
+                LocalDate toD = toDatePick.getValue();
+                LocalDate soloD = soloDatePick.getValue();
+                HourMin fromH = new HourMin(fromHour.getValue(), fromMin.getValue());
+                HourMin toH = new HourMin(toHour.getValue(), toMin.getValue());
+                if (allDay.selectedProperty().getValue()) {
+                    Event newEvent = new Event(soloD, soloD.plusDays(1),
+                            new HourMin(0, 0), new HourMin(0, 0),
+                            nameText.getText(), descText.getText());
+                    eventList.add(newEvent);
+                } else {
+                    Event newEvent = new Event(fromD, toD, fromH, toH, nameText.getText(), descText.getText());
+                    eventList.add(newEvent);
+                }
+                CalendarMenu.refreshEvent();
+                window.close();
             }
-            CalendarMenu.refreshEvent();
-            window.close();
         });
 
         VBox layout = new VBox(10);
@@ -137,6 +168,7 @@ public class AddEventBox {
 
         Scene scene = new Scene(layout);
         layout.setPrefSize(400,450);
+        layout.setSpacing(10);
         window.setScene(scene);
         window.showAndWait(); //Prevent doing anything before minimising or closing the window.
 

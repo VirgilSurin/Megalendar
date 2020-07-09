@@ -4,6 +4,7 @@ import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.time.LocalDate;
 
 public class Agenda {
 
@@ -49,5 +50,19 @@ public class Agenda {
 
     public ArrayList<Event> getEventList() {
         return eventList;
+    }
+
+    public ArrayList<Event> getEventsOfTheDay(LocalDate date) {
+        ArrayList<Event> dailyEvents = new ArrayList<>();
+        for (Event e : eventList) {
+            if (e.getFromDate().isEqual(date))
+                dailyEvents.add(e.copy());
+                //The second statement avoid events which end on the day at 0:00
+            else if (e.getToDate().isEqual(date) && e.getToHour().compareTo(new HourMin(0, 0)) > 0)
+                dailyEvents.add(e.copy());
+            else if (e.getFromDate().isBefore(date) && e.getToDate().isAfter(date))
+                dailyEvents.add(e.copy());
+        }
+        return dailyEvents;
     }
 }

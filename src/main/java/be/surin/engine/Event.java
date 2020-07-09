@@ -2,7 +2,7 @@ package be.surin.engine;
 
 import java.time.LocalDate;
 
-public class Event {
+public class Event implements Comparable<Event>{
 
     private LocalDate fromDate;
     private LocalDate toDate;
@@ -70,5 +70,58 @@ public class Event {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    // Check if there is a collision between two events
+    public boolean collide(Event o) {
+        if (this.getToDate().isBefore(o.getFromDate()))
+            return false;
+        else if (this.getToDate().isEqual(o.getFromDate()) && (this.getToHour().compareTo(o.getFromHour()) <= 0))
+            return false;
+        else if (o.getToDate().isBefore(this.getFromDate()))
+            return false;
+        else if (o.getToDate().isEqual(this.getFromDate()) && (o.getToHour().compareTo(this.getFromHour()) <= 0))
+            return false;
+        else
+            return true;
+    }
+
+    // Compare the fromDate and the frontHour of the two events
+    @Override
+    public int compareTo(Event o) {
+        if (this.getFromDate().isBefore(o.getFromDate()))
+            return -1;
+        else if (this.getFromDate().isAfter(o.getFromDate()))
+            return 1;
+        else
+            return this.getFromHour().compareTo(o.getFromHour());
+    }
+
+    // Return the length in minutes of the event
+    public static int length(LocalDate fromDate, HourMin fromHour, LocalDate toDate, HourMin toHour) {
+        int length = 0;
+        while (! fromDate.equals(toDate)) {
+            fromDate.plusDays(1);
+            length += 60 * 24;
+        }
+        length += (toHour.getHour() - fromHour.getHour()) * 60;
+        length += toHour.getMin() - fromHour.getMin();
+        return length;
+    }
+
+    public Event copy() {
+        return new Event(fromDate, toDate, fromHour, toHour, name, description);
+    }
+
+    @Override
+    public String toString() {
+        return  fromDate.getDayOfMonth() + " " +
+                fromDate.getMonth().toString() + " " +
+                fromHour.getHour() + ":" +
+                fromHour.getMin() + " " +
+                toDate.getDayOfMonth() + " " +
+                toDate.getMonth() + " " +
+                toHour.getHour() + ":" +
+                toHour.getMin();
     }
 }

@@ -16,10 +16,9 @@ public class EventDisplay {
     public VBox display() {
         VBox pane = new VBox();
         Label name = new Label(event.getName());
-        Label date = new Label(event.getFromDate().toString());
-        Label hour = new Label(""+event.getFromDate());
+        Label date = new Label(event.toString());
         Label desc = new Label(event.getDescription());
-        pane.getChildren().addAll(name, date, hour, desc);
+        pane.getChildren().addAll(name, date, desc);
         return pane;
     }
 }
