@@ -7,7 +7,7 @@ public class Profile {
 
     public Profile(String name) {
         this.name = name;
-        agenda = new Agenda(name);
+        this.agenda = new Agenda(name);
     }
 
     // Will be used when loading a saved profile

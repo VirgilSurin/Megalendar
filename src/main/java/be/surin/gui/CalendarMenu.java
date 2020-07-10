@@ -4,6 +4,7 @@ import be.surin.engine.Profile;
 
 import java.time.YearMonth;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.control.Button;
 import javafx.scene.Scene;
@@ -14,6 +15,7 @@ public class CalendarMenu {
     private static Profile currentProfile;
     private static BorderPane mainPane;
     private static HBox buttonBox;
+    private static EventView eventView;
 
     public static void setCurrentProfile(Profile currentProfile) {
         CalendarMenu.currentProfile = currentProfile;
@@ -39,15 +41,15 @@ public class CalendarMenu {
 
         mainPane.setCenter(calendarView.getView());
         mainPane.setTop(buttonBox);
-        refreshEvent();
+        //THAT'S NEEEEEEEW
+        eventView = new EventView(currentProfile.getAgenda().getEventList());
+        mainPane.setBottom(eventView.view());
+
         return new Scene(mainPane);
     }
 
-    protected static void refreshEvent() {
-        if (currentProfile.getAgenda().getEventList().size() > 0) {
-            EventDisplay eventDisplay = new EventDisplay(currentProfile.getAgenda().getNextEvent());
-            mainPane.setBottom(eventDisplay.display());
-        }
+    public static EventView getEventView() {
+        return eventView;
     }
 
     public static Profile getCurrentProfile() {

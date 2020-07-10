@@ -153,7 +153,8 @@ public class AddEventBox {
                     Event newEvent = new Event(fromD, toD, fromH, toH, nameText.getText(), descText.getText());
                     eventList.add(newEvent);
                 }
-                CalendarMenu.refreshEvent();
+
+                CalendarMenu.getEventView().refresh(eventList);
                 window.close();
             }
         });
