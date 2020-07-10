@@ -61,8 +61,6 @@ public class DailyTimelineBox {
                 }
                 else {
                     Event last = eventColumns[index].peekLast();
-                    System.out.println(e.toString());
-                    System.out.println(last.toString());
                     if (last != null) {
                         if (!e.copy().collide(last.copy())) {
                             eventColumns[index].addLast(e.copy());
@@ -124,7 +122,7 @@ public class DailyTimelineBox {
                     testTime = testEvent.getFromHour();
                     index++;
                 }
-                //TODO Make the event stand out from the rest
+                //TODO Make the event stand out visually from the rest
                 else {
                     if (testEvent.getToDate().isEqual(date)) {
                         AnchorPane ap = new AnchorPane();
@@ -138,7 +136,7 @@ public class DailyTimelineBox {
                     }
                     else {
                         AnchorPane ap = new AnchorPane();
-                        size = (24 - testEvent.getFromHour().getHour()) * 60 + (60 - testEvent.getFromHour().getMin());
+                        size = (24 - testEvent.getFromHour().getHour()) * 60 - testEvent.getFromHour().getMin();
                         ap.setPrefSize(120, size);
                         timelines[i].add(ap, 0, index);
                         testTime = null;

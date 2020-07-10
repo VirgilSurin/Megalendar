@@ -98,11 +98,10 @@ public class Event implements Comparable<Event>{
     }
 
     // Return the length in minutes of the event
-    //TODO It seems to be stuck in the while when the dates are different, must fix that later, not important now
     public static int length(LocalDate fromDate, HourMin fromHour, LocalDate toDate, HourMin toHour) {
         int length = 0;
         while (fromDate.isBefore(toDate)) {
-            fromDate.plusDays(1);
+            fromDate = fromDate.plusDays(1);
             length += 60 * 24;
         }
         length += (toHour.getHour() - fromHour.getHour()) * 60;
