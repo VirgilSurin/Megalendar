@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04ede019-031a-4410-9ef3-958c9ca0f2ee" name="Default Changelist" comment="Fixed 2 minor bugs and removed some prints">
+    <list default="true" id="04ede019-031a-4410-9ef3-958c9ca0f2ee" name="Default Changelist" comment="correct tab view for next event and event list implemented">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/EditEventBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/fileHashes/fileHashes.bin" afterDir="false" />
@@ -28,13 +29,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/engine/Agenda.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/engine/Agenda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/AddEventBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/AddEventBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/CalendarMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/CalendarMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/engine/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/engine/Event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/EventDisplay.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.tar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/Megalendar-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Megalendar-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/engine/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/engine/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/gui/EventDisplay.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/gui/EventView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/EventView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -231,7 +231,11 @@
       <workItem from="1594316663178" duration="621000" />
       <workItem from="1594412745874" duration="2300000" />
       <workItem from="1594593763598" duration="4071000" />
-      <workItem from="1594650998966" duration="3643000" />
+      <workItem from="1594650998966" duration="3820000" />
+      <workItem from="1594664766532" duration="1044000" />
+      <workItem from="1594739902484" duration="2056000" />
+      <workItem from="1594932697540" duration="559000" />
+      <workItem from="1595539633150" duration="1534000" />
     </task>
     <task id="LOCAL-00001" summary="calendar view from a git">
       <created>1593546292530</created>
@@ -261,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594597846936</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="correct tab view for next event and event list implemented">
+      <created>1594655941322</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594655941322</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +297,8 @@
     <MESSAGE value="event parameters WIP" />
     <MESSAGE value="eventView first version" />
     <MESSAGE value="Fixed 2 minor bugs and removed some prints" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed 2 minor bugs and removed some prints" />
+    <MESSAGE value="correct tab view for next event and event list implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct tab view for next event and event list implemented" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1593545653621">
@@ -297,10 +309,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593524955387" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1594655645498">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1594741510459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594655645498" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594741510459" />
     <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1594135984837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -329,26 +341,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="114" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593709781173" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1594655876042">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1595540895738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594415050423" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594655876042" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1594655876042">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595540895738" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1595540895738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594415050423" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594655876042" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1594655876042">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595540895738" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1595540895738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594415050423" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594655876042" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1594655876042">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595540895737" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1595540895738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594415050423" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594655876042" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595540895738" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1594597850934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -365,27 +377,35 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594597850934" />
-    <state x="672" y="236" key="MultipleFileMergeDialog" timestamp="1593618097847">
+    <state x="258" y="41" key="MergeDialog" timestamp="1594656007042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="672" y="236" key="MultipleFileMergeDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593618097847" />
+    <state x="258" y="41" key="MergeDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594656007042" />
+    <state x="672" y="236" key="MultipleFileMergeDialog" timestamp="1594656007047">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="236" key="MultipleFileMergeDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594656007047" />
     <state x="398" y="141" key="SettingsEditor" timestamp="1594651068079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="398" y="141" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594651068079" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1593706015624">
+    <state x="747" y="236" key="VCS.ChangeListViewerDialog" timestamp="1594655976086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593706015624" />
+    <state x="747" y="236" key="VCS.ChangeListViewerDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594655976086" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1594656045759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594656045759" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1593709516441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593709516441" />
     <state x="2344" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593557903843" />
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594594316144">
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594739910907">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594594316144" />
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594739910907" />
     <state x="690" y="286" key="extract.method.dialog" timestamp="1593688058908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

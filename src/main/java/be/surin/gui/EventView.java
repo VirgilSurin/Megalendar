@@ -1,10 +1,9 @@
 package be.surin.gui;
 
 import be.surin.engine.Event;
-import javafx.collections.ObservableList;
+import javafx.event.EventHandler;
 import javafx.geometry.Side;
 import javafx.scene.control.*;
-import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 
 import java.util.ArrayList;
@@ -36,6 +35,14 @@ public class EventView {
         }
         eventListTab.setContent(eventListView);
         eventListTab.setText("Event list");
+        eventListView.setOnEditStart(new EventHandler<ListView.EditEvent<Event>>() {
+            @Override
+            public void handle(ListView.EditEvent<Event> event) {
+                editList(event.getIndex());
+                event.consume();
+            }
+        });
+
 
         //view pane set-up
         viewPane.getTabs().add(nextEventTab); //tab 0
@@ -55,6 +62,8 @@ public class EventView {
         for (Event event : eventList) {
             eventListView.getItems().add(event);
         }
+        eventListView.setEditable(true);
+        
     }
 
     public Event getNextEvent() {
@@ -76,6 +85,14 @@ public class EventView {
         } else {
             return null;
         }
+    }
+
+    public void editList(int index) {
+        EditEventBox.Display(index, this);
+    }
+
+    public ArrayList<Event> getEventList() {
+        return eventList;
     }
 
     public TabPane view() {
