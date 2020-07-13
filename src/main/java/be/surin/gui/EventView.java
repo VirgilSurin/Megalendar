@@ -1,71 +1,63 @@
 package be.surin.gui;
 
-import be.surin.engine.Agenda;
 import be.surin.engine.Event;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
+import javafx.collections.ObservableList;
+import javafx.geometry.Side;
+import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.RowConstraints;
+import javafx.scene.layout.VBox;
 
 import java.util.ArrayList;
 
 public class EventView {
 
-    private final GridPane nextEventPane;
-    private final GridPane eventListPane;
-    private final GridPane viewPane;
+    private TabPane viewPane;
+    private VBox nextEventView;
+    private ListView<Event> eventListView;
     private ArrayList<Event> eventList;
 
     public EventView(ArrayList<Event> eventList) {
-        this.nextEventPane = new GridPane();
-        this.eventListPane = new GridPane();
-        this.viewPane = new GridPane();
-        refresh(eventList);
+        this.eventList = eventList;
+        this.viewPane = new TabPane();
+        viewPane.setSide(Side.LEFT);
 
-        //view set-up
-        Button nextEventButton = new Button("next event");
-        nextEventButton.setOnAction( e -> {
-            viewPane.getRowConstraints().remove(1);
-            viewPane.addRow(1, nextEventPane);
-        });
+        //next event view
+        Tab nextEventTab = new Tab();
+        Event e = getNextEvent();
+        nextEventView = new VBox();
+        nextEventTab.setContent(nextEventView);
+        nextEventTab.setText("Next event");
 
-        Button eventListButton = new Button("event list");
-        eventListButton.setOnAction( e -> {
-            viewPane.getRowConstraints().remove(1);
-            viewPane.addRow(1, eventListPane);
-        });
+        //event list view
+        Tab eventListTab = new Tab();
+        eventListView = new ListView<Event>();
+        for (Event event : eventList) {
+            eventListView.getItems().add(event);
+        }
+        eventListTab.setContent(eventListView);
+        eventListTab.setText("Event list");
 
-        nextEventButton.setRotate(-90);
-        eventListButton.setRotate(-90);
-
-        viewPane.addRow(0, nextEventButton, eventListButton);
-        viewPane.addRow(1, nextEventPane);
+        //view pane set-up
+        viewPane.getTabs().add(nextEventTab); //tab 0
+        viewPane.getTabs().add(eventListTab); // tab 1
+        viewPane.setTabClosingPolicy(TabPane.TabClosingPolicy.UNAVAILABLE);
     }
 
     public void refresh(ArrayList<Event> eventList) {
         this.eventList = eventList;
 
-        //nextEvent set-up
-        Event nextEvent = getNextEvent(eventList);
-        if (nextEvent == null) {
-            nextEventPane.addColumn(0, new Label("You have no event to come"));
-        } else {
-            nextEventPane.addColumn(0, new Label(nextEvent.getName()));
-            nextEventPane.addColumn(1, new Label(nextEvent.toString()));
-            nextEventPane.addColumn(1, new Label(nextEvent.getDescription()));
-        }
-        nextEventPane.setVgap(5);
+        Event e = getNextEvent();
+        nextEventView.getChildren().clear();
+        nextEventView.getChildren().addAll(new Label(e.getName()), new Label(e.getDateStr()), new Label(e.getDescription()));
+        viewPane.getTabs().get(0).setContent(nextEventView);
 
-        //eventList set-up
-        for (int i = 0; i < eventList.size(); i++) {
-            Event e = eventList.get(i);
-            Label eventLabel = new Label(e.getName() + " | " + e.toString());
-            eventListPane.addColumn(i, eventLabel);
+        eventListView.getItems().clear();
+        for (Event event : eventList) {
+            eventListView.getItems().add(event);
         }
-        eventListPane.setVgap(5);
     }
 
-    public static Event getNextEvent(ArrayList<Event> eventList) {
+    public Event getNextEvent() {
         //TODO add function that add events in chronological order into the eventList
         if (eventList.size() > 0) {
             Event currentNext = eventList.get(0); //first item
@@ -86,7 +78,7 @@ public class EventView {
         }
     }
 
-    public GridPane view() {
+    public TabPane view() {
         return viewPane;
     }
 

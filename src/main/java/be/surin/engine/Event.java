@@ -113,12 +113,25 @@ public class Event implements Comparable<Event>{
         return new Event(fromDate, toDate, fromHour, toHour, name, description);
     }
 
-    @Override
-    public String toString() {
+
+    public String getDateStr() {
         return  fromDate.getDayOfMonth() + " " +
                 fromDate.getMonth().toString() + " " +
                 fromHour.getHour() + ":" +
-                fromHour.getMin() + " " +
+                fromHour.getMin() + " - " +
+                toDate.getDayOfMonth() + " " +
+                toDate.getMonth() + " " +
+                toHour.getHour() + ":" +
+                toHour.getMin();
+    }
+
+    @Override
+    public String toString() {
+        return  name + " | " +
+                fromDate.getDayOfMonth() + " " +
+                fromDate.getMonth().toString() + " " +
+                fromHour.getHour() + ":" +
+                fromHour.getMin() + " - " +
                 toDate.getDayOfMonth() + " " +
                 toDate.getMonth() + " " +
                 toHour.getHour() + ":" +
