@@ -69,8 +69,12 @@ public class EditEventBox {
         CheckBox allDay = new CheckBox();
         if (event.getToDate() == null) {
             allDay.setSelected(true);
+            dateBox.getChildren().clear();
+            dateBox.getChildren().addAll(dateL, soloDatePick);
         } else {
             allDay.setSelected(false);
+            dateBox.getChildren().clear();
+            dateBox.getChildren().addAll(dateL, fromBox, toBox);
         }
 
         allDay.selectedProperty().addListener((v, oldValue, NewValue) -> {
