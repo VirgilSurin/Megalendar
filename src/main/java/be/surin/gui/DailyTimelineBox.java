@@ -26,14 +26,18 @@ public class DailyTimelineBox {
         Label label = new Label();
         label.setText("Timeline of the day : " + date);
 
+        // Dimensions of all the elements (simpler to modify)
+        int labelWidth = 40;
+        int paneWidth = 120;
+        int hourHeight = 60; // Must multiply 12 to let periods of 5 minutes have an integer height
+
         // Create the grip pane for hours
         GridPane hourLabels = new GridPane();
-        hourLabels.setPrefSize(40, 60*24);
+        hourLabels.setPrefSize(labelWidth, hourHeight * 24);
         hourLabels.setGridLinesVisible(true);
         for (int i = 0; i < 24; i++) {
             Text txt = new Text(i + ":00");
-            AnchorPane ap = new AnchorPane();
-            ap.setPrefSize(40, 60);
+            AnchorPane ap = CreateEmptyAnchorPane(labelWidth, hourHeight);
             ap.setTopAnchor(txt, 5.0);
             ap.setLeftAnchor(txt, 5.0);
             ap.getChildren().add(txt);
@@ -79,7 +83,7 @@ public class DailyTimelineBox {
         GridPane[] timelines = new GridPane[numberColumns];
         for (int i = 0; i < numberColumns; i++) {
             timelines[i] = new GridPane();
-            timelines[i].setPrefSize(120, 60*24);
+            timelines[i].setPrefSize(paneWidth, hourHeight * 24);
             timelines[i].setGridLinesVisible(true);
         }
 
@@ -92,7 +96,6 @@ public class DailyTimelineBox {
             int size;
             while (testEvent != null) {
                 if (testEvent.getFromDate().isBefore(date)) {
-                    AnchorPane ap = new AnchorPane();
                     if (testEvent.getToDate().isEqual(date)) {
                         size = Event.length(date, testTime, date, testEvent.getToHour());
                         testTime = testEvent.getToHour();
@@ -101,43 +104,38 @@ public class DailyTimelineBox {
                         size = 60 * 24;
                         testTime = null;
                     }
-                    ap.setPrefSize(120, size);
+                    AnchorPane ap = CreateEventAnchorPane(paneWidth, size, testEvent, date);
                     timelines[i].add(ap, 0, index);
                     testEvent = eventColumns[i].pollFirst();
                     index++;
                 }
                 else if (testTime.getHour() < testEvent.getFromHour().getHour()) {
-                    AnchorPane ap = new AnchorPane();
                     size = 60 - testTime.getMin();
-                    ap.setPrefSize(120, size);
+                    AnchorPane ap = CreateEmptyAnchorPane(paneWidth, size);
                     timelines[i].add(ap, 0, index);
                     testTime = new HourMin(testTime.getHour()+1, 0);
                     index++;
                 }
                 else if (testTime.getMin() < testEvent.getFromHour().getMin()) {
-                    AnchorPane ap = new AnchorPane();
                     size = testEvent.getFromHour().getMin() - testTime.getMin();
-                    ap.setPrefSize(120, size);
+                    AnchorPane ap = CreateEmptyAnchorPane(paneWidth, size);
                     timelines[i].add(ap, 0, index);
                     testTime = testEvent.getFromHour();
                     index++;
                 }
-                //TODO Make the event stand out visually from the rest
                 else {
                     if (testEvent.getToDate().isEqual(date)) {
-                        AnchorPane ap = new AnchorPane();
                         size = Event.length(testEvent.getFromDate(), testEvent.getFromHour(),
                                 testEvent.getToDate(), testEvent.getToHour());
-                        ap.setPrefSize(120, size);
+                        AnchorPane ap = CreateEventAnchorPane(paneWidth, size, testEvent, date);
                         timelines[i].add(ap, 0, index);
                         testTime = testEvent.getToHour();
                         testEvent = eventColumns[i].pollFirst();
                         index++;
                     }
                     else {
-                        AnchorPane ap = new AnchorPane();
                         size = (24 - testEvent.getFromHour().getHour()) * 60 - testEvent.getFromHour().getMin();
-                        ap.setPrefSize(120, size);
+                        AnchorPane ap = CreateEventAnchorPane(paneWidth, size, testEvent, date);
                         timelines[i].add(ap, 0, index);
                         testTime = null;
                         testEvent = null;
@@ -148,9 +146,8 @@ public class DailyTimelineBox {
             // testTime is null iff the timeline has been already completed
             if (testTime != null) {
                 if (testTime.getMin() != 0) {
-                    AnchorPane ap = new AnchorPane();
                     size = 60 - testTime.getMin();
-                    ap.setPrefSize(120, size);
+                    AnchorPane ap = CreateEmptyAnchorPane(paneWidth, size);
                     timelines[i].add(ap, 0, index);
                     index++;
                     if (testTime.getHour() == 23)
@@ -160,9 +157,8 @@ public class DailyTimelineBox {
                 }
                 if (testTime != null) {
                     for (int hour = testTime.getHour(); hour < 24; hour++) {
-                        AnchorPane ap = new AnchorPane();
                         size = 60;
-                        ap.setPrefSize(120, size);
+                        AnchorPane ap = CreateEmptyAnchorPane(paneWidth, size);
                         timelines[i].add(ap, 0, index);
                         index++;
                     }
@@ -207,5 +203,29 @@ public class DailyTimelineBox {
             }
             return maximum;
         }
+    }
+
+    private static AnchorPane CreateEmptyAnchorPane(int width, int height) {
+        AnchorPane ap = new AnchorPane();
+        ap.setPrefSize(width, height);
+        return ap;
+    }
+
+    // TODO Make the events great again (I mean, not ugly like right now) !
+    private static AnchorPane CreateEventAnchorPane(int width, int height, Event event, LocalDate date) {
+        AnchorPane ap = new AnchorPane();
+        ap.setPrefSize(width, height);
+
+        Label label = new Label(event.getName());
+        label.setMinWidth(width);
+        label.setMaxWidth(width);
+        label.setMinHeight(height);
+        label.setMaxHeight(height);
+        label.setAlignment(Pos.CENTER);
+
+        // TODO Change the color according to the tag
+        ap.setStyle("-fx-background-color: #d3e0e0");
+        ap.getChildren().add(label);
+        return ap;
     }
 }
