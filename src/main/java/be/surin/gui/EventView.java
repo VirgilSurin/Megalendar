@@ -2,11 +2,14 @@ package be.surin.gui;
 
 import be.surin.engine.Event;
 import be.surin.engine.HourMin;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.EventHandler;
 import javafx.geometry.Pos;
 import javafx.geometry.Side;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.control.cell.TextFieldListCell;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
@@ -15,12 +18,13 @@ import javafx.stage.Stage;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-public class EventView {
+public class EventView extends Cell<Event> {
 
     private TabPane viewPane;
     private VBox nextEventView;
     private ListView<Event> eventListView;
     private ArrayList<Event> eventList;
+    private ObservableList<Event> eventListObs;
 
     public EventView(ArrayList<Event> eventList) {
         this.eventList = eventList;
@@ -36,18 +40,22 @@ public class EventView {
 
         //event list view
         Tab eventListTab = new Tab();
-        eventListView = new ListView<Event>();
-        for (Event event : eventList) {
-            eventListView.getItems().add(event);
-        }
+        eventListObs = FXCollections.emptyObservableList();
+        eventListObs.addAll(eventList);
+        eventListView = new ListView<Event>(eventListObs);
+
         eventListTab.setContent(eventListView);
         eventListTab.setText("Event list");
         eventListView.setOnEditStart(new EventHandler<ListView.EditEvent<Event>>() {
             @Override
             public void handle(ListView.EditEvent<Event> editEvent) {
-
-
-
+                /*
+                Cell cell = new Cell();
+                cell.setItem(editEvent);
+                startEdit();
+                */
+                //old code in comment
+                /*
                 //implement EditEventBox inside the event handler
                 Stage window = new Stage();
 
@@ -167,7 +175,11 @@ public class EventView {
                 window.showAndWait(); //Prevent doing anything before minimising or closing the window.
 
 
+            */
 
+                //new code - it's a try
+                System.out.println(eventList.get(editEvent.getIndex()));
+                startEdit2(editEvent.getIndex());
             }
         });
 
@@ -178,18 +190,16 @@ public class EventView {
         viewPane.setTabClosingPolicy(TabPane.TabClosingPolicy.UNAVAILABLE);
     }
 
-    public void refresh(ArrayList<Event> eventList) {
-        this.eventList = eventList;
-
+    public void refresh(Event newEvent) {
+        eventList.add(newEvent);
         Event e = getNextEvent();
         nextEventView.getChildren().clear();
         nextEventView.getChildren().addAll(new Label(e.getName()), new Label(e.getDateStr()), new Label(e.getDescription()));
         viewPane.getTabs().get(0).setContent(nextEventView);
-
-        eventListView.getItems().clear();
-        for (Event event : eventList) {
-            eventListView.getItems().add(event);
-        }
+        eventListObs.clear();
+        //it must be terrible... but had to create a new observable list
+        eventListObs = FXCollections.observableList(eventList);
+        eventListView.setItems(eventListObs);
         eventListView.setEditable(true);
         
     }
@@ -227,4 +237,16 @@ public class EventView {
         return viewPane;
     }
 
+    @Override
+    public void startEdit() {
+        System.out.println("ye... Cell edit");
+        System.out.println("event :" + getItem());
+        super.startEdit();
+    }
+
+    public void startEdit2(int index) {
+        System.out.println("ouch I'm the event event too much event LOL " + eventList.get(index));
+        EditEventBox.Display(index, this); //display not working :)
+        cancelEdit();
+    }
 }

@@ -149,12 +149,13 @@ public class AddEventBox {
                             new HourMin(0, 0), new HourMin(0, 0),
                             nameText.getText(), descText.getText());
                     eventList.add(newEvent);
+                    CalendarMenu.getEventView().refresh(newEvent);
                 } else {
                     Event newEvent = new Event(fromD, toD, fromH, toH, nameText.getText(), descText.getText());
                     eventList.add(newEvent);
+                    CalendarMenu.getEventView().refresh(newEvent);
                 }
 
-                CalendarMenu.getEventView().refresh(eventList);
                 window.close();
             }
         });

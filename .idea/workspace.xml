@@ -19,16 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04ede019-031a-4410-9ef3-958c9ca0f2ee" name="Default Changelist" comment="Event List editable 75% progress (Almost good)">
+    <list default="true" id="04ede019-031a-4410-9ef3-958c9ca0f2ee" name="Default Changelist" comment="edit list still not working">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/AddEventBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/AddEventBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/EditEventBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/EditEventBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/EventView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/EventView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/EventView.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/EventView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.tar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/Megalendar-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Megalendar-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/scripts/Megalendar" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/Megalendar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/gui/AddEventBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/AddEventBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/gui/EditEventBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/EditEventBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/gui/EventView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/EventView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -235,6 +238,8 @@
       <workItem from="1595870047884" duration="3779000" />
       <workItem from="1595953477037" duration="5362000" />
       <workItem from="1596022854678" duration="2075000" />
+      <workItem from="1596289048937" duration="247000" />
+      <workItem from="1596298956184" duration="3949000" />
     </task>
     <task id="LOCAL-00001" summary="calendar view from a git">
       <created>1593546292530</created>
@@ -292,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595541339476</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="edit list still not working">
+      <created>1596289308349</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596289308349</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +332,8 @@
     <MESSAGE value="correct tab view for next event and event list implemented" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.gradle/buildOutputCleanup/buildOutputCleanup.lock&#10;#&#9;.idea/workspace.xml&#10;#&#9;build/classes/java/main/be/surin/engine/Event.class&#10;#&#9;build/distributions/Megalendar-1.0-SNAPSHOT.tar&#10;#&#9;build/distributions/Megalendar-1.0-SNAPSHOT.zip&#10;#&#9;build/libs/Megalendar-1.0-SNAPSHOT.jar" />
     <MESSAGE value="Event List editable 75% progress (Almost good)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Event List editable 75% progress (Almost good)" />
+    <MESSAGE value="edit list still not working" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit list still not working" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1593545653621">
@@ -331,10 +344,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593524955387" />
-    <state x="612" y="187" key="#com.intellij.ide.util.MemberChooser" timestamp="1596023268933">
+    <state x="612" y="158" width="388" height="666" key="#com.intellij.ide.util.MemberChooser" timestamp="1596300244416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="612" y="187" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1596023268933" />
+    <state x="612" y="158" width="388" height="666" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1596300244416" />
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594741510459" />
     <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1594135984837">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -364,41 +377,49 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="114" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593709781173" />
-    <state width="1493" height="283" key="GridCell.Tab.0.bottom" timestamp="1596025067757">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1596303164808">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="283" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596025067757" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596302893537" />
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595541598040" />
-    <state width="1493" height="283" key="GridCell.Tab.0.center" timestamp="1596025067757">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1596303164808">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="283" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596025067757" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596302893537" />
+    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595541598040" />
-    <state width="1493" height="283" key="GridCell.Tab.0.left" timestamp="1596025067757">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1596303164807">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="283" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596025067757" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596302893536" />
+    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164807" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595541598040" />
-    <state width="1493" height="283" key="GridCell.Tab.0.right" timestamp="1596025067757">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1596303164808">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="283" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596025067757" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596302893537" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595541598040" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1594597850934">
+    <state width="1877" height="261" key="GridCell.Tab.1.bottom" timestamp="1596303164809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="261" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164809" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594597850934" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1594597850934">
+    <state width="1877" height="261" key="GridCell.Tab.1.center" timestamp="1596303164808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="261" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594597850934" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1594597850934">
+    <state width="1877" height="261" key="GridCell.Tab.1.left" timestamp="1596303164808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="261" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594597850934" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1594597850934">
+    <state width="1877" height="261" key="GridCell.Tab.1.right" timestamp="1596303164809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="261" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164809" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594597850934" />
     <state x="258" y="41" key="MergeDialog" timestamp="1594656007042">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -416,18 +437,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="747" y="236" key="VCS.ChangeListViewerDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594655976086" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595541351662">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1596289323013">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596289323012" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595541351662" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1593709516441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593709516441" />
     <state x="2344" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593557903843" />
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595541213261">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="615" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596289204719">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="615" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1596289204719" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595541213261" />
     <state x="690" y="286" key="extract.method.dialog" timestamp="1593688058908">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -437,5 +460,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593558318248" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/be/surin/gui/EventView.java</url>
+          <line>28</line>
+          <properties class="be.surin.gui.EventView" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

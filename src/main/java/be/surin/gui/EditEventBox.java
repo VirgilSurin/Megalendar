@@ -110,12 +110,14 @@ public class EditEventBox {
                             new HourMin(0, 0), new HourMin(0, 0),
                             nameText.getText(), descText.getText());
                     eventList.set( index, newEvent);
+                    eventView.refresh(newEvent);
                 } else {
                     Event newEvent = new Event(fromD, toD, fromH, toH, nameText.getText(), descText.getText());
                     eventList.set( index, newEvent);
+                    eventView.refresh(newEvent);
                 }
             }
-            eventView.refresh(eventList);
+
             window.close();
         });
 
