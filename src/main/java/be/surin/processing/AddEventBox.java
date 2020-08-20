@@ -149,7 +149,6 @@ public class AddEventBox {
                     Event newEvent = new Event(soloD, soloD.plusDays(1),
                             new HourMin(0, 0), new HourMin(0, 0),
                             nameText.getText(), descText.getText());
-                    eventList.add(newEvent);
                     CalendarScene.getEventView().refresh(newEvent);
                 } else {
                     Event newEvent = new Event(fromD, toD, fromH, toH, nameText.getText(), descText.getText());

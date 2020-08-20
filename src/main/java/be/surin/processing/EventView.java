@@ -1,14 +1,23 @@
 package be.surin.processing;
 
 import be.surin.engine.Event;
+import be.surin.engine.HourMin;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.EventHandler;
+import javafx.geometry.Pos;
 import javafx.geometry.Side;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.control.cell.TextFieldListCell;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class EventView extends Cell<Event> {
 
@@ -35,18 +44,10 @@ public class EventView extends Cell<Event> {
         eventListObs = FXCollections.emptyObservableList();
         eventListObs.addAll(eventList);
         eventListView = new ListView<Event>(eventListObs);
+        eventListView.setEditable(false);
 
         eventListTab.setContent(eventListView);
         eventListTab.setText("Event list");
-        eventListView.setOnEditStart(new EventHandler<ListView.EditEvent<Event>>() {
-            @Override
-            public void handle(ListView.EditEvent<Event> editEvent) {
-
-                //new code - it's a try
-                System.out.println(eventList.get(editEvent.getIndex()));
-                startEdit2(editEvent.getIndex());
-            }
-        });
 
 
         //view pane set-up
@@ -57,41 +58,26 @@ public class EventView extends Cell<Event> {
 
     public void refresh(Event newEvent) {
         eventList.add(newEvent);
+        eventList.sort(Comparator.naturalOrder());
         Event e = getNextEvent();
         nextEventView.getChildren().clear();
         nextEventView.getChildren().addAll(new Label(e.getName()), new Label(e.getDateStr()), new Label(e.getDescription()));
         viewPane.getTabs().get(0).setContent(nextEventView);
-        eventListObs.clear();
+
         //it must be terrible... but had to create a new observable list
-        eventListObs = FXCollections.observableList(eventList);
-        eventListView.setItems(eventListObs);
-        eventListView.setEditable(true);
+        ObservableList<Event> newObs = FXCollections.observableList(eventList);
+        eventListView.setItems(newObs);
+
         
     }
 
     public Event getNextEvent() {
         //TODO add function that add events in chronological order into the eventList
         if (eventList.size() > 0) {
-            Event currentNext = eventList.get(0); //first item
-            int i = 1; //0 is already done
-            while (i < eventList.size()) {
-                Event temp = eventList.get(i);
-                if (temp.getFromDate().isBefore(currentNext.getFromDate())) {
-                    currentNext = temp;
-                } else if (temp.getFromDate().isEqual(currentNext.getFromDate())
-                        && temp.getFromHour().compareTo(currentNext.getFromHour()) < 0) {
-                    currentNext = temp;
-                }
-                i++;
-            }
-            return currentNext;
+            return eventList.get(eventList.size()-1);
         } else {
             return null;
         }
-    }
-
-    public void editList(int index) {
-        EditEventBox.Display(index, this);
     }
 
     public ArrayList<Event> getEventList() {
@@ -102,16 +88,4 @@ public class EventView extends Cell<Event> {
         return viewPane;
     }
 
-    @Override
-    public void startEdit() {
-        System.out.println("ye... Cell edit");
-        System.out.println("event :" + getItem());
-        super.startEdit();
-    }
-
-    public void startEdit2(int index) {
-        System.out.println("ouch I'm the event event too much event LOL " + eventList.get(index));
-        EditEventBox.Display(index, this); //display not working :)
-        cancelEdit();
-    }
 }
