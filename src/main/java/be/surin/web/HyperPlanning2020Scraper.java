@@ -143,9 +143,7 @@ public class HyperPlanning2020Scraper {
 
     private static void cleanEvents() {
         ArrayList<Event> dirtyList = AppLauncher.currentProfile.getAgenda().getEventList();
-        for (Event event : dirtyList)
-            if (event.getTag().equals(TAG.BLUE))
-                dirtyList.remove(event);
+        dirtyList.removeIf(event -> (event.getTag().equals(TAG.BLUE)));
     }
 
     private static ArrayList<Event> importEvents() {
@@ -154,6 +152,7 @@ public class HyperPlanning2020Scraper {
         String buttonEdit = "//*[@id=\"GInterface.Instances[1].Instances[1].bouton_Edit\"]";
         String scrollBar = "//*[@id=\"GInterface.Instances[1].Instances[1]_ContenuScroll\"]";
         String BAB2INFO = "//*[@id=\"GInterface.Instances[1].Instances[1]_38\"]";
+        String weekBar = "//*[@id=\"GInterface.Instances[1].Instances[4]_Calendrier\"]";
 
         // Open a new browser window
         System.setProperty("webdriver.gecko.driver", geckoDriverPath);
@@ -166,14 +165,22 @@ public class HyperPlanning2020Scraper {
         driver.findElement(By.xpath(buttonEdit)).click();
 
         // Find the BAB2 Info button and click it
-        Actions actions = new Actions(driver);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(scrollBar)));
-        WebElement button = driver.findElement(By.xpath(BAB2INFO));
-        button.click();
+        driver.findElement(By.xpath(BAB2INFO)).click();
 
         // Get the courses of every week
         ArrayList<Event> arrayList = new ArrayList<>();
-        arrayList.addAll(getCoursesOfWeek(wait, driver));
+        for (int week = 1; week <= 52; week++) {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(weekBar)));
+            String weekPath = "//*[@id=\"GInterface.Instances[1].Instances[4]_j_" + week + "\"]";
+            WebElement weekButton = driver.findElement(By.xpath(weekPath));
+            String cls = weekButton.getAttribute("class");
+            // To avoid the blocked weeks or weeks without courses
+            if (cls.contains("Calendrier_Jour_AvecContenu")) {
+                driver.findElement(By.xpath(weekPath)).click();
+                arrayList.addAll(getCoursesOfWeek(wait, driver));
+            }
+        }
 
         // Close the browser window
         driver.close();
@@ -203,7 +210,6 @@ public class HyperPlanning2020Scraper {
         // Get the first day of the week
         String firstDayPath = "/html/body/div[3]/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/td/div[1]/div[1]/div[1]/div[2]/div/div/div[1]/div";
         String firstDayStr = driver.findElement(By.xpath(firstDayPath)).getText();
-        System.out.println(firstDayStr);
         String[] firstDayTab = firstDayStr.split(" ");
         int dayOfMonth = Integer.parseInt(firstDayTab[1]);
         int month = 9;
@@ -281,8 +287,6 @@ public class HyperPlanning2020Scraper {
             if (pixelMatcher.find()) {
                 leftPixel = Integer.parseInt(pixelMatcher.group());
             }
-            System.out.println(styleStr);
-            System.out.println(leftPixel);
 
             // Get the fromFate and toDate of the event
             LocalDate fromDate = firstDayOfWeek.plusDays(Math.round(((float) leftPixel)/ widthOfADay));
@@ -313,6 +317,15 @@ public class HyperPlanning2020Scraper {
             catch (org.openqa.selenium.NoSuchElementException e) {
                 name = "";
             }
+
+            // Split the name on 2 lines (for comfort)
+            String[] nameSplit = name.split(" - ");
+            if (nameSplit.length != 0)
+                name = nameSplit[0];
+            if (nameSplit.length > 1)
+                name += ("\n" + nameSplit[1]);
+            for (int k = 2; k < nameSplit.length; k++)
+                name += (" - " + (nameSplit[k]));
 
             // Get the description of the event
             String description = "";
