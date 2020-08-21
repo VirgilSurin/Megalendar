@@ -1,9 +1,9 @@
 package be.surin.gui;
 
-import be.surin.engine.Profile;
 import be.surin.processing.AddEventBox;
 import be.surin.processing.CalendarHandler;
 import be.surin.processing.EventView;
+import be.surin.web.HyperPlanning2020Scraper;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -17,11 +17,11 @@ public class CalendarScene extends Scene {
 
     private static EventView eventView;
 
-    public CalendarScene(Profile profile) {
-        super(createCalendarParent(profile), 600, 600);
+    public CalendarScene() {
+        super(createCalendarParent(), 600, 600);
     }
 
-    private static Parent createCalendarParent(Profile profile) {
+    private static Parent createCalendarParent() {
         BorderPane mainPane = new BorderPane();
         mainPane.setPrefSize(550,600);
 
@@ -33,9 +33,13 @@ public class CalendarScene extends Scene {
         });
         Button changeProfile = new Button("Change profile");
         changeProfile.setOnAction(e -> {
-            AppLauncher.stage.setScene(new ProfileScene());
+            AppLauncher.stage.setScene(new ProfileSelectionScene());
         });
-        buttonBox.getChildren().addAll(addEvent, changeProfile);
+        Button refreshHyperPlanning = new Button("Refresh HyperPlanning");
+        refreshHyperPlanning.setOnAction(e -> {
+            HyperPlanning2020Scraper.refreshEvents();
+        });
+        buttonBox.getChildren().addAll(addEvent, changeProfile, refreshHyperPlanning);
 
         VBox calendar = new CalendarHandler(YearMonth.now()).getView();
 

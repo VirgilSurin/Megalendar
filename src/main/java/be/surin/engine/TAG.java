@@ -1,12 +1,12 @@
 package be.surin.engine;
 
 public enum TAG {
-    BLUE,
+    BLUE, //Used to show an event imported from HyperPlanning
     RED,
     GREEN,
     YELLOW,
     BROWN,
     PURPLE,
     WHITE,
-    BLACK;
+    BLACK; //Used as a default value when creating events
 }

@@ -41,8 +41,7 @@ public class EventView extends Cell<Event> {
 
         //event list view
         Tab eventListTab = new Tab();
-        eventListObs = FXCollections.emptyObservableList();
-        eventListObs.addAll(eventList);
+        eventListObs = FXCollections.observableList(eventList);
         eventListView = new ListView<Event>(eventListObs);
         eventListView.setEditable(false);
 
@@ -74,7 +73,7 @@ public class EventView extends Cell<Event> {
     public Event getNextEvent() {
         //TODO add function that add events in chronological order into the eventList
         if (eventList.size() > 0) {
-            return eventList.get(eventList.size()-1);
+            return eventList.get(0);
         } else {
             return null;
         }
