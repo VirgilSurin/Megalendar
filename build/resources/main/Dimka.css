@@ -1,0 +1,25 @@
+.root {
+    -fx-border-width: 1;
+    -fx-border-color: lightblue;
+    -fx-background-color: whitesmoke;
+}
+.button {
+    -fx-border-width: 1;
+    -fx-border-color: lightblue;
+    -fx-background-color: whitesmoke;
+}
+.label {
+    -fx-border-width: 1;
+    -fx-border-color: lightblue;
+    -fx-background-color: whitesmoke;
+}
+.choice-box {
+    -fx-border-width: 1;
+    -fx-border-color: lightblue;
+    -fx-background-color: whitesmoke;
+}
+.check-box {
+    -fx-border-width: 1;
+    -fx-border-color: lightblue;
+    -fx-background-color: whitesmoke;
+}
