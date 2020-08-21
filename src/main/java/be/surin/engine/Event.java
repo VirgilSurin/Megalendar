@@ -10,6 +10,7 @@ public class Event implements Comparable<Event>{
     private HourMin toHour;
     private String name;
     private String description;
+    private TAG tag;
 
 
     public Event(LocalDate fromDate, LocalDate toDate, HourMin fromHour, HourMin toHour, String name, String description) {
@@ -19,7 +20,9 @@ public class Event implements Comparable<Event>{
         this.toHour = toHour;
         this.name = name;
         this.description = description;
-
+        // Black is for now used as a default value for the tag
+        // Blue is the only other tag used currently (for the HyperPlanning events)
+        this.tag = TAG.BLACK;
     }
 
     //getters and setters, lust be fully editable
@@ -70,6 +73,14 @@ public class Event implements Comparable<Event>{
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public TAG getTag() {
+        return tag;
+    }
+
+    public void setTag(TAG tag) {
+        this.tag = tag;
     }
 
     // Check if there is a collision between two events

@@ -15,7 +15,7 @@ public class AppLauncher extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         stage = primaryStage;
-        primaryStage.setScene(new ProfileScene());
+        primaryStage.setScene(new ProfileSelectionScene());
         primaryStage.show();
     }
 }

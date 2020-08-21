@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04ede019-031a-4410-9ef3-958c9ca0f2ee" name="Default Changelist" comment="EventView fix">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/surin/web/geckodriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4/fileHashes/fileHashes.bin" afterDir="false" />
@@ -27,21 +28,24 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/processing/AddEventBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/processing/AddEventBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/processing/EventView.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/processing/EventView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/processing/ProfileHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/processing/ProfileHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/engine/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/engine/Event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/AppLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/AppLauncher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/CalendarScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/CalendarScene.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/ProfileScene.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/processing/ProfileHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/web/HyperPlanning2020Scraper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/web/HyperPlanning2020Scraper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.tar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/Megalendar-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Megalendar-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/Megalendar" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/Megalendar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/Megalendar.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/Megalendar.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/processing/EventView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/processing/EventView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/engine/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/engine/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/engine/TAG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/engine/TAG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/gui/AppLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/AppLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/gui/CalendarScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/CalendarScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/gui/ProfileScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/ProfileSelectionScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/processing/ProfileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/processing/ProfileSelectionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/web/HyperPlanning2020Scraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/web/HyperPlanning2020Scraper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,16 +117,19 @@
     <property name="settings.editor.selected.configurable" value="ics" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Maximilien\Desktop\Megalendar\libs" />
-      <recent name="D:\Developpement\Calendar\src\main\java\be\surin\gui" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Maximilien\Desktop\Megalendar\src\main\java\be\surin\web" />
+      <recent name="C:\Users\Maximilien\Desktop\Megalendar\src" />
+      <recent name="C:\Users\Maximilien\Desktop\Megalendar\src\main\java\be\surin" />
+      <recent name="D:\Developpement\Calendar\src\main\java\be\surin\engine\calendar" />
+      <recent name="D:\Developpement\Calendar\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="be.surin.processing" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Developpement\Calendar\src\main\java\be\surin\engine\calendar" />
-      <recent name="D:\Developpement\Calendar\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maximilien\Desktop\Megalendar\libs" />
+      <recent name="D:\Developpement\Calendar\src\main\java\be\surin\gui" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Calendar [build run]">
@@ -238,7 +245,7 @@
       <workItem from="1597932080803" duration="823000" />
       <workItem from="1597933000089" duration="1095000" />
       <workItem from="1597996931861" duration="1078000" />
-      <workItem from="1597998083359" duration="213000" />
+      <workItem from="1597998083359" duration="20690000" />
     </task>
     <task id="LOCAL-00001" summary="calendar view from a git">
       <created>1593546292530</created>
@@ -386,28 +393,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="114" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593709781173" />
-    <state width="1493" height="630" key="GridCell.Tab.0.bottom" timestamp="1597998233030">
+    <state width="1493" height="630" key="GridCell.Tab.0.bottom" timestamp="1598022262030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="630" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597998233030" />
+    <state width="1493" height="630" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598022262030" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
     <state width="1877" height="269" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597934100131" />
-    <state width="1493" height="630" key="GridCell.Tab.0.center" timestamp="1597998233030">
+    <state width="1493" height="630" key="GridCell.Tab.0.center" timestamp="1598022262030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="630" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597998233030" />
+    <state width="1493" height="630" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598022262030" />
     <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
     <state width="1877" height="269" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597934100130" />
-    <state width="1493" height="630" key="GridCell.Tab.0.left" timestamp="1597998233030">
+    <state width="1493" height="630" key="GridCell.Tab.0.left" timestamp="1598022262030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="630" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597998233030" />
+    <state width="1493" height="630" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598022262030" />
     <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164807" />
     <state width="1877" height="269" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597934100130" />
-    <state width="1493" height="630" key="GridCell.Tab.0.right" timestamp="1597998233030">
+    <state width="1493" height="630" key="GridCell.Tab.0.right" timestamp="1598022262030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="630" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597998233030" />
+    <state width="1493" height="630" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598022262030" />
     <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
     <state width="1877" height="269" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597934100131" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1596814428738">
