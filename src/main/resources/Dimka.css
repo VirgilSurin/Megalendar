@@ -4,7 +4,7 @@
     -fx-background-color: whitesmoke;
 }
 .button {
-    -fx-border-width: 1;
+    -fx-border-width: 2;
     -fx-border-color: lightblue;
     -fx-background-color: whitesmoke;
 }
@@ -22,4 +22,7 @@
     -fx-border-width: 1;
     -fx-border-color: lightblue;
     -fx-background-color: whitesmoke;
+}
+.menu .tab-pane .table-view .tab .chart{
+    -fx-background-color: grey;
 }

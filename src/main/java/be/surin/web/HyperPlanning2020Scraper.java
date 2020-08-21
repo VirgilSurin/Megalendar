@@ -4,15 +4,22 @@ import be.surin.engine.Event;
 import be.surin.engine.HourMin;
 import be.surin.engine.TAG;
 import be.surin.gui.AppLauncher;
+import be.surin.gui.CalendarScene;
 import javafx.application.Application;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 
+import java.io.File;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -21,7 +28,9 @@ import java.util.regex.Pattern;
 
 public class HyperPlanning2020Scraper {
     static final String url = "https://hplanning2020.umons.ac.be/invite";
-    static final String geckoDriverPath = "..\\geckodriver.exe";
+    static final String geckoDriverPath = "src\\main\\resources\\geckodriver.exe";
+    static final String phantomJSPath = "src\\main\\resources\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe";
+    static final String chromeDriverPath = "src\\main\\resources\\chromedriver.exe";
 
     /* DO NOT ERASE THIS CODE
 
@@ -129,7 +138,7 @@ public class HyperPlanning2020Scraper {
 
      */
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException, InterruptedException {
         ArrayList<Event> arrayList = importEvents();
         for (Event e : arrayList)
             System.out.println(e.toString());
@@ -139,6 +148,7 @@ public class HyperPlanning2020Scraper {
         ArrayList<Event> importedEvents = importEvents();
         cleanEvents();
         AppLauncher.currentProfile.getAgenda().getEventList().addAll(importedEvents);
+        CalendarScene.getEventView().refresh();
     }
 
     private static void cleanEvents() {
@@ -156,9 +166,30 @@ public class HyperPlanning2020Scraper {
 
         // Open a new browser window
         System.setProperty("webdriver.gecko.driver", geckoDriverPath);
-        FirefoxDriver driver = new FirefoxDriver();
+
+        //phantom driver
+        /*
+        DesiredCapabilities caps = new DesiredCapabilities();
+        caps.setJavascriptEnabled(true);
+        caps.setCapability("takesScreenshot", true);
+        caps.setCapability(
+                PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
+                phantomJSPath);
+        WebDriver driver = new  PhantomJSDriver(caps);
+        */
+        //chrome headless driver
+        /*
+        System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors");
+        WebDriver driver = new ChromeDriver(options);
+         */
+        FirefoxOptions fxOption = new FirefoxOptions();
+        fxOption.addArguments("--headless");
+        FirefoxDriver driver = new FirefoxDriver(fxOption);
         WebDriverWait wait = new WebDriverWait(driver, 100);
         driver.navigate().to(url);
+
 
         // Click the scrollbar (after it's loaded)
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath(buttonEdit)));

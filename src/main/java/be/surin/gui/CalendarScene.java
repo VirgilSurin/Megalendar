@@ -48,7 +48,8 @@ public class CalendarScene extends Scene {
         mainPane.setTop(buttonBox);
         mainPane.setCenter(calendar);
         mainPane.setBottom(eventView.view());
-
+        
+        mainPane.getStylesheets().add("Dimka.css");
         return mainPane;
     }
 
