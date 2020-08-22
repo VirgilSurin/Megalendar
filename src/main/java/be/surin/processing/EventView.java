@@ -57,7 +57,7 @@ public class EventView extends Cell<Event> {
     }
 
     public void refresh(Event... newEvent) {
-        eventList.addAll(Arrays.asList(newEvent)); //shut-up nerd
+        eventList.addAll(Arrays.asList(newEvent));
         eventList.sort(Comparator.naturalOrder());
         Event e = getNextEvent();
         nextEventView.getChildren().clear();
@@ -67,6 +67,8 @@ public class EventView extends Cell<Event> {
         //it must be terrible... but had to create a new observable list
         ObservableList<Event> newObs = FXCollections.observableList(eventList);
         eventListView.setItems(newObs);
+
+        
     }
 
     public Event getNextEvent() {

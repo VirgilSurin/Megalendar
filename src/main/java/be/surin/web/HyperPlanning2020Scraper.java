@@ -23,6 +23,7 @@ import java.io.File;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -162,6 +163,7 @@ public class HyperPlanning2020Scraper {
         String buttonEdit = "//*[@id=\"GInterface.Instances[1].Instances[1].bouton_Edit\"]";
         String scrollBar = "//*[@id=\"GInterface.Instances[1].Instances[1]_ContenuScroll\"]";
         String BAB2INFO = "//*[@id=\"GInterface.Instances[1].Instances[1]_38\"]";
+        String BAB3MATH = "//*[@id=\"GInterface.Instances[1].Instances[1]_62\"]";
         String weekBar = "//*[@id=\"GInterface.Instances[1].Instances[4]_Calendrier\"]";
 
         // Open a new browser window
@@ -197,7 +199,7 @@ public class HyperPlanning2020Scraper {
 
         // Find the BAB2 Info button and click it
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(scrollBar)));
-        driver.findElement(By.xpath(BAB2INFO)).click();
+        driver.findElement(By.xpath(BAB3MATH)).click();
 
         // Get the courses of every week
         ArrayList<Event> arrayList = new ArrayList<>();
@@ -226,17 +228,43 @@ public class HyperPlanning2020Scraper {
 
         // Count the number of events in the week (to avoid NoSuchElementExceptions later)
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(gridCourses)));
-        WebElement course;
         int cnt = 0;
         do {
             try {
-                course = driver.findElement(By.xpath("//*[@id=\"id_70_cours_" + cnt + "\"]"));
+                driver.findElement(By.xpath("//*[@id=\"id_70_cours_" + cnt + "\"]"));
                 cnt++;
             }
             catch (org.openqa.selenium.NoSuchElementException e) {
                 break;
             }
         } while (true);
+
+        // Count the number of visible events in the week (to handle conflicting events)
+        int visibleCnt = 0;
+        for (int i = 0; i < cnt; i++) {
+            try {
+                driver.findElement(By.xpath("//*[@id=\"id_70_cours_" + cnt + "\"]")).getAttribute("title");
+                visibleCnt++;
+            } catch (org.openqa.selenium.NoSuchElementException e) {
+                break;
+            }
+        }
+
+        // Get the buttons to handle conflicting events
+        LinkedList<String> conflictButtonsPath = new LinkedList<>();
+        for (int i = visibleCnt; i <= cnt; i++) {
+            int num = 2;
+            while (true) {
+                try {
+                    String path = "/html/body/div[3]/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/td/div[1]/div[1]/div[2]/div[2]/div/div/div[1]/div[4]/div[" + i + "]/div/div/div[" + num + "]/div";
+                    driver.findElement(By.xpath(path));
+                    conflictButtonsPath.add(path);
+                    num++;
+                } catch (org.openqa.selenium.NoSuchElementException e) {
+                    break;
+                }
+            }
+        }
 
         // Get the first day of the week
         String firstDayPath = "/html/body/div[3]/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/td/div[1]/div[1]/div[1]/div[2]/div/div/div[1]/div";
@@ -303,6 +331,23 @@ public class HyperPlanning2020Scraper {
         ArrayList<Event> arrayList = new ArrayList<>();
         for (int i = 1; i <= cnt; i++) {
 
+            // Break if we arrive to the courses that don't exists
+            try {
+                driver.findElement(By.xpath("//*[@id=\"id_70_coursInt_" + (i-1) + "\"]")).getAttribute("title");
+            } catch (org.openqa.selenium.NoSuchElementException e) {
+                break;
+            }
+
+            // Handles the click to show conflict events
+            String pathName = "/html/body/div[3]/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/td";
+            pathName += ("/div[1]/div[1]/div[2]/div[2]/div/div/div[1]/div[4]/div[" + i + "]/div/table/tbody/tr/td/div[1]");
+            try {
+                driver.findElement(By.xpath(pathName));
+            } catch (org.openqa.selenium.NoSuchElementException e) {
+                driver.findElement(By.xpath(conflictButtonsPath.get(0))).click();
+                conflictButtonsPath.removeFirst();
+            }
+
             // Get the left margin of the day (to know in witch day column it is)
             // Since we know the width of an unique column
             String style = driver.findElement(By.xpath("//*[@id=\"id_70_cours_" + (i-1) + "\"]")).getAttribute("style");
@@ -341,8 +386,6 @@ public class HyperPlanning2020Scraper {
             // Get the name of the event
             String name;
             try {
-                String pathName = "/html/body/div[3]/div[1]/table/tbody/tr[2]/td/div/table/tbody/tr[2]/td";
-                pathName += ("/div[1]/div[1]/div[2]/div[2]/div/div/div[1]/div[4]/div[" + i + "]/div/table/tbody/tr/td/div[1]");
                 name = driver.findElement(By.xpath(pathName)).getText();
             }
             catch (org.openqa.selenium.NoSuchElementException e) {

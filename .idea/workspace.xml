@@ -19,76 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04ede019-031a-4410-9ef3-958c9ca0f2ee" name="Default Changelist" comment="lo">
-      <change afterPath="$PROJECT_DIR$/phantomjsdriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/ChangeLog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/LICENSE.BSD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/bin/phantomjs.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/bin/phantomjsBROKEN.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/arguments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/child_process-examples.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/colorwheel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/countdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/detectsniff.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/echoToFile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/features.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/fibo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/hello.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/injectme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/loadspeed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/loadurlwithoutcss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/modernizr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/netlog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/netsniff.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/openurlwithproxy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/outputEncoding.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/page_events.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/pagecallback.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/phantomwebintro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/postjson.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/postserver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/printenv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/printheaderfooter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/printmargins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/rasterize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/render_multi_url.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/responsive-screenshot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/run-jasmine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/run-jasmine2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/run-qunit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/scandir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/serverkeepalive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/simpleserver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/sleepsort.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/stdin-stdout-stderr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/universe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/unrandomize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/useragent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/version.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/waitfor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/examples/walk_through_frames.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/phantomjs-2.1.1-windows/third-party.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/javaCompile/taskHistory.bin" afterDir="false" />
+    <list default="true" id="04ede019-031a-4410-9ef3-958c9ca0f2ee" name="Default Changelist" comment="EventView fix">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/CalendarScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/CalendarScene.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/processing/AddEventBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/processing/AddEventBox.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/processing/EventView.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/processing/EventView.class" afterDir="false" />
@@ -96,15 +36,9 @@
       <change beforePath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.tar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/Megalendar-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Megalendar-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/Dimka.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/Dimka.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/scripts/Megalendar" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/Megalendar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/Megalendar.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/Megalendar.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/gui/CalendarScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/CalendarScene.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/processing/EventView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/processing/EventView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/web/HyperPlanning2020Scraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/web/HyperPlanning2020Scraper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/web/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/geckodriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Dimka.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Dimka.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,41 +58,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Megalendar" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Megalendar" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Megalendar" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Megalendar" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Megalendar" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Megalendar" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testRuntimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -171,9 +71,9 @@
         <option value="JavaFXApplication" />
         <option value="Enum" />
         <option value="Python Script" />
+        <option value="FxmlFile" />
         <option value="Class" />
         <option value="CSS File" />
-        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -210,19 +110,19 @@
     <property name="settings.editor.selected.configurable" value="ics" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Maximilien\Desktop\Megalendar\libs" />
-      <recent name="D:\Developpement\Calendar\src\main\java\be\surin\gui" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="be.surin.processing" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Developpement\Calendar\Megalendar\src\main\resources" />
       <recent name="C:\Users\Maximilien\Desktop\Megalendar\src\main\java\be\surin\web" />
       <recent name="C:\Users\Maximilien\Desktop\Megalendar\src" />
       <recent name="C:\Users\Maximilien\Desktop\Megalendar\src\main\java\be\surin" />
       <recent name="D:\Developpement\Calendar\src\main\java\be\surin\engine\calendar" />
+      <recent name="D:\Developpement\Calendar\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="be.surin.processing" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maximilien\Desktop\Megalendar\libs" />
+      <recent name="D:\Developpement\Calendar\src\main\java\be\surin\gui" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Calendar [build run]">
@@ -338,8 +238,8 @@
       <workItem from="1597932080803" duration="823000" />
       <workItem from="1597933000089" duration="1095000" />
       <workItem from="1597996931861" duration="1078000" />
-      <workItem from="1597998083359" duration="20690000" />
-      <workItem from="1598028053371" duration="7621000" />
+      <workItem from="1597998083359" duration="23974000" />
+      <workItem from="1598082664750" duration="6694000" />
     </task>
     <task id="LOCAL-00001" summary="calendar view from a git">
       <created>1593546292530</created>
@@ -453,10 +353,6 @@
     </state>
     <state x="331" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1597827427274" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593524955387" />
-    <state x="703" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598030311587">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="703" y="322" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598030311587" />
     <state x="612" y="158" width="388" height="666" key="#com.intellij.ide.util.MemberChooser" timestamp="1596300244416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -491,58 +387,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="114" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593709781173" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1598039624843">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="630" key="GridCell.Tab.0.bottom" timestamp="1598089364365">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="630" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598022262030" />
+    <state width="1493" height="630" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598089364365" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598039624843" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1598039624843">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597934100131" />
+    <state width="1493" height="630" key="GridCell.Tab.0.center" timestamp="1598089364365">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="630" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598022262030" />
+    <state width="1493" height="630" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598089364365" />
     <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598039624843" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1598039624843">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="269" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597934100130" />
+    <state width="1493" height="630" key="GridCell.Tab.0.left" timestamp="1598089364364">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="630" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598022262030" />
+    <state width="1493" height="630" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598089364364" />
     <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164807" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598039624843" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1598039624843">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="269" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597934100130" />
+    <state width="1493" height="630" key="GridCell.Tab.0.right" timestamp="1598089364365">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="630" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598022262030" />
+    <state width="1493" height="630" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598089364365" />
     <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598039624843" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1598039624843">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="269" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597934100131" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1596814428738">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596814428738" />
     <state width="1877" height="261" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164809" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598039624843" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1598039624843">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594597850934" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1596814428738">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596814428738" />
     <state width="1877" height="261" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598039624843" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1598039624843">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594597850934" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1596814428738">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596814428738" />
     <state width="1877" height="261" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598039624843" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1598039624843">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594597850934" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1596814428738">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596814428738" />
     <state width="1877" height="261" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164809" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598039624843" />
-    <state x="258" y="41" key="MergeDialog" timestamp="1598026347154">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594597850934" />
+    <state x="258" y="41" key="MergeDialog" timestamp="1594656007042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="258" y="41" key="MergeDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598026347154" />
+    <state x="258" y="41" key="MergeDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594656007042" />
     <state x="672" y="236" key="MultipleFileMergeDialog" timestamp="1595541305343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -566,19 +462,19 @@
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593709516441" />
     <state x="2344" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593557903843" />
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598026332678">
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597932859494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="615" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1596289204719" />
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598026332678" />
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597932859494" />
+    <state x="306" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1598084787648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="306" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1598084787648" />
     <state x="690" y="286" key="extract.method.dialog" timestamp="1593688058908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="286" key="extract.method.dialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593688058908" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1598037708141">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598037708141" />
     <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1597228496405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
