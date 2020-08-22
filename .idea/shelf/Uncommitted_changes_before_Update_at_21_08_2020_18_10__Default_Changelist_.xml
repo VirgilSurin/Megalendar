@@ -1,0 +1,124 @@
+<changelist name="Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]" date="1598026218484" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 21/08/2020 18:10 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/6.4/fileHashes/fileHashes.bin" />
+    <option name="AFTER_PATH" value=".gradle/6.4/fileHashes/fileHashes.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/fileHashes.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="build/classes/java/main/be/surin/gui/AppLauncher.class" />
+    <option name="AFTER_PATH" value="build/classes/java/main/be/surin/gui/AppLauncher.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/AppLauncher.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+    <option name="AFTER_PATH" value=".gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/buildOutputCleanup.lock" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="build/classes/java/main/be/surin/processing/AddEventBox.class" />
+    <option name="AFTER_PATH" value="build/classes/java/main/be/surin/processing/AddEventBox.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/AddEventBox.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/6.4/executionHistory/executionHistory.bin" />
+    <option name="AFTER_PATH" value=".gradle/6.4/executionHistory/executionHistory.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/executionHistory.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/6.4/fileHashes/fileHashes.lock" />
+    <option name="AFTER_PATH" value=".gradle/6.4/fileHashes/fileHashes.lock" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/fileHashes.lock" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="build/distributions/Megalendar-1.0-SNAPSHOT.zip" />
+    <option name="AFTER_PATH" value="build/distributions/Megalendar-1.0-SNAPSHOT.zip" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/Megalendar-1.0-SNAPSHOT.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="build/classes/java/main/be/surin/web/HyperPlanning2020Scraper.class" />
+    <option name="AFTER_PATH" value="build/classes/java/main/be/surin/web/HyperPlanning2020Scraper.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/HyperPlanning2020Scraper.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/buildOutputCleanup/outputFiles.bin" />
+    <option name="AFTER_PATH" value=".gradle/buildOutputCleanup/outputFiles.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/outputFiles.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="build/classes/java/main/be/surin/processing/EventView.class" />
+    <option name="AFTER_PATH" value="build/classes/java/main/be/surin/processing/EventView.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/EventView.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="build/classes/java/main/be/surin/gui/ProfileScene.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="src/main/java/be/surin/web/geckodriver.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/geckodriver.exe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="build/classes/java/main/be/surin/processing/ProfileHandler.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/6.4/javaCompile/javaCompile.lock" />
+    <option name="AFTER_PATH" value=".gradle/6.4/javaCompile/javaCompile.lock" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/javaCompile.lock" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/6.4/fileHashes/resourceHashesCache.bin" />
+    <option name="AFTER_PATH" value=".gradle/6.4/fileHashes/resourceHashesCache.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/resourceHashesCache.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/6.4/executionHistory/executionHistory.lock" />
+    <option name="AFTER_PATH" value=".gradle/6.4/executionHistory/executionHistory.lock" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/executionHistory.lock" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="build/classes/java/main/be/surin/gui/CalendarScene.class" />
+    <option name="AFTER_PATH" value="build/classes/java/main/be/surin/gui/CalendarScene.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/CalendarScene.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="build/classes/java/main/be/surin/engine/Event.class" />
+    <option name="AFTER_PATH" value="build/classes/java/main/be/surin/engine/Event.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/Event.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="build/distributions/Megalendar-1.0-SNAPSHOT.tar" />
+    <option name="AFTER_PATH" value="build/distributions/Megalendar-1.0-SNAPSHOT.tar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/Megalendar-1.0-SNAPSHOT.tar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/6.4/javaCompile/taskHistory.bin" />
+    <option name="AFTER_PATH" value=".gradle/6.4/javaCompile/taskHistory.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/taskHistory.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="build/libs/Megalendar-1.0-SNAPSHOT.jar" />
+    <option name="AFTER_PATH" value="build/libs/Megalendar-1.0-SNAPSHOT.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/Megalendar-1.0-SNAPSHOT.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="build/classes/java/main/be/surin/gui/ProfileSelectionScene.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/ProfileSelectionScene.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".gradle/6.4/javaCompile/classAnalysis.bin" />
+    <option name="AFTER_PATH" value=".gradle/6.4/javaCompile/classAnalysis.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/classAnalysis.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="build/classes/java/main/be/surin/processing/ProfileSelectionHandler.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_10_[Default_Changelist]/ProfileSelectionHandler.class" />
+  </binary>
+</changelist>

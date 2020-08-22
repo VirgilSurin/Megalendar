@@ -39,7 +39,11 @@ public class CalendarScene extends Scene {
         refreshHyperPlanning.setOnAction(e -> {
             HyperPlanning2020Scraper.refreshEvents();
         });
-        buttonBox.getChildren().addAll(addEvent, changeProfile, refreshHyperPlanning);
+        Button settingsButton = new Button("Settings");
+        settingsButton.setOnAction(e -> {
+            AppLauncher.stage.setScene(Settings.settingsSetup());
+        });
+        buttonBox.getChildren().addAll(addEvent, changeProfile, refreshHyperPlanning, settingsButton);
 
         VBox calendar = new CalendarHandler(YearMonth.now()).getView();
 
