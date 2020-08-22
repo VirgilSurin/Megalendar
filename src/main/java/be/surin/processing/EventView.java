@@ -17,6 +17,7 @@ import javafx.stage.Stage;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 
 public class EventView extends Cell<Event> {
@@ -55,8 +56,8 @@ public class EventView extends Cell<Event> {
         viewPane.setTabClosingPolicy(TabPane.TabClosingPolicy.UNAVAILABLE);
     }
 
-    public void refresh(Event newEvent) {
-        eventList.add(newEvent);
+    public void refresh(Event... newEvent) {
+        eventList.addAll(Arrays.asList(newEvent));
         eventList.sort(Comparator.naturalOrder());
         Event e = getNextEvent();
         nextEventView.getChildren().clear();
