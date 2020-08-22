@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04ede019-031a-4410-9ef3-958c9ca0f2ee" name="Default Changelist" comment="rick roll removed + firefox headless mode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/Settings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/surin/web/HyperPlanning2020Collector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/options.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/fileHashes/fileHashes.bin" afterDir="false" />
@@ -29,17 +28,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_06__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_06__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_07__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_07__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_07__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_08_2020_18_07__Default_Changelist_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/CalendarScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/CalendarScene.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/web/HyperPlanning2020Scraper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/web/HyperPlanning2020Scraper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Megalendar-1.0-SNAPSHOT.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/Megalendar-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Megalendar-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjsdriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/phantomjsdriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/gui/CalendarScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/CalendarScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/gui/Settings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/web/HyperPlanning2020Collector.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/web/HyperPlanning2020Collector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/gui/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/gui/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/web/HyperPlanning2020Collector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/web/HyperPlanning2020Collector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +102,7 @@
         <option value="CSS File" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -131,6 +125,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -145,13 +140,6 @@
     <property name="settings.editor.selected.configurable" value="ics" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Maximilien\Desktop\Megalendar\libs" />
-      <recent name="D:\Developpement\Calendar\src\main\java\be\surin\gui" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="be.surin.processing" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Developpement\Calendar\Megalendar\src\main\resources" />
       <recent name="C:\Users\Maximilien\Desktop\Megalendar\src\main\java\be\surin\web" />
@@ -159,8 +147,28 @@
       <recent name="C:\Users\Maximilien\Desktop\Megalendar\src\main\java\be\surin" />
       <recent name="D:\Developpement\Calendar\src\main\java\be\surin\engine\calendar" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="be.surin.processing" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maximilien\Desktop\Megalendar\libs" />
+      <recent name="D:\Developpement\Calendar\src\main\java\be\surin\gui" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.Calendar [build run]">
+  <component name="RunManager" selected="Application.HyperPlanning2020Collector">
+    <configuration name="HyperPlanning2020Collector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.surin.web.HyperPlanning2020Collector" />
+      <module name="Megalendar.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.surin.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HyperPlanning2020Scraper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.surin.web.HyperPlanning2020Scraper" />
       <module name="Megalendar.main" />
@@ -196,10 +204,12 @@
     </configuration>
     <list>
       <item itemvalue="Application.HyperPlanning2020Scraper" />
+      <item itemvalue="Application.HyperPlanning2020Collector" />
       <item itemvalue="Gradle.Calendar [build run]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HyperPlanning2020Collector" />
         <item itemvalue="Application.HyperPlanning2020Scraper" />
       </list>
     </recent_temporary>
@@ -275,6 +285,8 @@
       <workItem from="1597996931861" duration="1078000" />
       <workItem from="1597998083359" duration="20690000" />
       <workItem from="1598028053371" duration="7621000" />
+      <workItem from="1598104977428" duration="7641000" />
+      <workItem from="1598115906350" duration="1139000" />
     </task>
     <task id="LOCAL-00001" summary="calendar view from a git">
       <created>1593546292530</created>
@@ -426,30 +438,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="114" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593709781173" />
-    <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1598099738705">
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1598117053825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="630" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598022262030" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
-    <state width="1877" height="273" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598099738705" />
-    <state width="1877" height="273" key="GridCell.Tab.0.center" timestamp="1598099738705">
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598117053825" />
+    <state width="1877" height="273" key="GridCell.Tab.0.center" timestamp="1598117053825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="630" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598022262030" />
     <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
-    <state width="1877" height="273" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598099738705" />
-    <state width="1877" height="273" key="GridCell.Tab.0.left" timestamp="1598099738705">
+    <state width="1877" height="273" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598117053825" />
+    <state width="1877" height="273" key="GridCell.Tab.0.left" timestamp="1598117053825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="630" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598022262030" />
     <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164807" />
-    <state width="1877" height="273" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598099738705" />
-    <state width="1877" height="273" key="GridCell.Tab.0.right" timestamp="1598099738705">
+    <state width="1877" height="273" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598117053825" />
+    <state width="1877" height="273" key="GridCell.Tab.0.right" timestamp="1598117053825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="630" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598022262030" />
     <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
-    <state width="1877" height="273" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598099738705" />
+    <state width="1877" height="273" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598117053825" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1598039624843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -506,6 +518,10 @@
     </state>
     <state x="615" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1596289204719" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598026332678" />
+    <state x="2201" y="0" width="731" height="1027" maximized="true" key="dock-window-1" timestamp="1598116830988">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2201" y="0" width="731" height="1027" maximized="true" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598116830988" />
     <state x="690" y="286" key="extract.method.dialog" timestamp="1593688058908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
