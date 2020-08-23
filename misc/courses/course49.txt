@@ -1,0 +1,61 @@
+.BAB3 - Ing. civil - lun. 14 sept. à 00h00 au mar. 18 mai à 16h30
+_
+mar. 27 oct. 2020 de 13h30 à 16h30 mar. 16 févr. 2021 de 13h30 à 18h30 13h00 3
+AffirmProjProf
+jeu. 18 mars 2021 de 08h30 à 16h45 ven. 19 mars 2021 de 08h30 à 16h45 16h30 2
+AidMulticrDéc
+jeu. 04 févr. 2021 de 13h30 à 15h30 lun. 10 mai 2021 de 10h30 à 12h30 24h00 12
+AlliagMétal
+mar. 15 sept. 2020 de 10h30 à 12h30 mer. 04 nov. 2020 de 08h15 à 10h15 16h00 8
+AnalChimChimio
+mar. 15 sept. 2020 de 08h15 à 10h15 ven. 20 nov. 2020 de 13h30 à 16h30 54h00 21
+AnalFinCalEc
+ven. 26 mars 2021 de 08h15 à 10h15 mer. 12 mai 2021 de 10h30 à 12h30 24h00 12
+AnaNumEqDerivPart
+mar. 02 févr. 2021 de 10h30 à 12h30 lun. 10 mai 2021 de 13h30 à 16h30 36h00 16
+ApplicMob
+mar. 09 févr. 2021 de 13h30 à 15h30 mer. 05 mai 2021 de 13h30 à 16h30 24h00 10
+AtDémontMoteur
+mer. 28 avr. 2021 de 13h30 à 17h30 jeu. 29 avr. 2021 de 13h30 à 17h30 08h00 2
+CdeProcédés
+mar. 15 sept. 2020 de 13h30 à 15h30 ven. 11 déc. 2020 de 08h15 à 10h15 48h00 24
+CdeProcTP
+lun. 05 oct. 2020 de 13h30 à 17h30 ven. 27 nov. 2020 de 13h30 à 17h30 72h00 18
+ChimOrgPolym
+lun. 01 févr. 2021 de 08h15 à 10h15 lun. 10 mai 2021 de 08h15 à 10h15 60h00 26
+CinChimCat
+ven. 05 févr. 2021 de 10h30 à 12h30 ven. 14 mai 2021 de 10h30 à 12h30 36h00 16
+CompetProgram
+mer. 03 févr. 2021 de 10h30 à 12h30 lun. 22 févr. 2021 de 13h30 à 17h30 24h00 9
+CompMecaGeomat
+mar. 15 sept. 2020 de 13h30 à 15h30 ven. 11 déc. 2020 de 08h15 à 10h15 36h00 18
+ConfMéca
+mar. 03 nov. 2020 de 13h30 à 16h30 mar. 24 nov. 2020 de 13h30 à 16h30 12h00 4
+ConstrMach
+lun. 01 févr. 2021 de 08h15 à 10h15 ven. 14 mai 2021 de 10h30 à 12h30 60h00 30
+CptsTechnoFabMéc
+ven. 06 nov. 2020 de 10h30 à 12h30 ven. 11 déc. 2020 de 10h30 à 12h30 26h00 10
+CptsTherm
+mer. 24 mars 2021 de 10h30 à 12h30 mar. 11 mai 2021 de 13h30 à 16h30 30h00 13
+DataMin
+mer. 16 sept. 2020 de 10h30 à 12h30 ven. 11 déc. 2020 de 10h30 à 12h30 36h00 17
+DessTechnMétrol
+mar. 15 sept. 2020 de 08h15 à 10h15 ven. 11 déc. 2020 de 13h30 à 16h30 114h00 45
+DispoTechnoElectro
+mar. 02 févr. 2021 de 10h30 à 12h30 mar. 11 mai 2021 de 10h30 à 12h30 48h00 20
+DynVibrSystMéca
+lun. 01 févr. 2021 de 10h30 à 12h30 ven. 14 mai 2021 de 08h15 à 10h15 90h00 39
+ElecFonct
+lun. 14 sept. 2020 de 08h15 à 10h15 ven. 11 déc. 2020 de 13h30 à 16h30 63h00 26
+Electrochim
+mar. 29 sept. 2020 de 10h30 à 12h30 jeu. 10 déc. 2020 de 13h30 à 16h30 56h00 25
+English III - part 1
+mar. 15 sept. 2020 de 13h30 à 15h30 jeu. 10 déc. 2020 de 08h15 à 10h15 96h00 48
+English III - part 2
+mar. 02 févr. 2021 de 13h30 à 15h30 mer. 12 mai 2021 de 15h45 à 17h45 96h00 48
+Evénement - DCOM
+lun. 14 sept. 2020 de 16h30 à 01h00 jeu. 01 oct. 2020 de 16h30 à 20h00 12h00 2
+ExtrRessMin
+jeu. 17 sept. 2020 de 10h30 à 12h30 ven. 11 déc. 2020 de 10h30 à 12h30 48h00 21
+FondMachFluidTherm
+mer. 03 févr. 2021 de 10h30 à 12h30 mar. 04 mai 2021 de 10h30 à 12h30 44h00 19

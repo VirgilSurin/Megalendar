@@ -41,3 +41,21 @@ Exercices de Calculus I
 mer. 04 nov. 2020 de 13h30 à 15h30 mer. 16 déc. 2020 de 10h30 à 12h30 38h00 19
 Géométrie dans plan & espace
 lun. 14 sept. 2020 de 08h15 à 10h15 mar. 06 oct. 2020 de 13h30 à 15h30 16h00 8
+Inégalités
+jeu. 17 sept. 2020 de 08h15 à 10h15 mer. 14 oct. 2020 de 13h30 à 15h30 10h00 5
+Logique
+mar. 15 sept. 2020 de 13h30 à 15h30 mer. 21 oct. 2020 de 13h30 à 15h30 22h00 11
+Mécanique - Théorie
+jeu. 17 sept. 2020 de 10h30 à 12h30 ven. 18 déc. 2020 de 10h30 à 12h30 34h15 16
+Mécanique - travaux dirigés
+mer. 14 oct. 2020 de 15h45 à 17h45 ven. 27 nov. 2020 de 10h30 à 12h30 14h00 7
+Nombres complexes
+jeu. 17 sept. 2020 de 13h30 à 15h30 lun. 02 nov. 2020 de 13h30 à 15h30 18h00 9
+ondes opt phys méca fluides t.
+mar. 20 avr. 2021 de 13h30 à 15h30 mar. 11 mai 2021 de 13h30 à 15h30 20h00 10
+Prog. et algo II.
+mar. 02 févr. 2021 de 13h30 à 15h30 ven. 14 mai 2021 de 13h30 à 17h45 76h45 26
+Programmation et algorithmiq I
+mer. 16 sept. 2020 de 10h30 à 12h30 ven. 18 déc. 2020 de 13h30 à 17h45 94h00 34
+Travaux dirigés algèbre I A
+lun. 07 déc. 2020 de 08h15 à 15h45 lun. 07 déc. 2020 de 08h15 à 15h45 07h30 1

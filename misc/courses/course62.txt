@@ -41,3 +41,21 @@ Intro à la réalité fin - AAEP
 mar. 15 sept. 2020 de 13h30 à 15h30 ven. 18 déc. 2020 de 08h15 à 10h15 34h00 17
 introd à l'util bases don math
 mar. 20 oct. 2020 de 10h30 à 12h30 mar. 23 mars 2021 de 08h15 à 10h15 04h00 2
+Introd aux variétés différ.
+lun. 01 févr. 2021 de 15h45 à 17h45 ven. 14 mai 2021 de 13h30 à 15h30 58h00 29
+Logique math.
+lun. 14 sept. 2020 de 10h30 à 12h30 jeu. 17 déc. 2020 de 15h45 à 17h45 50h00 25
+Machine learning
+lun. 01 févr. 2021 de 13h30 à 15h30 mar. 11 mai 2021 de 10h30 à 12h30 58h00 29
+Méca. quant. applications
+lun. 01 févr. 2021 de 10h30 à 12h30 mar. 11 mai 2021 de 10h30 à 12h30 38h00 19
+Méca. quant. théorie
+lun. 14 sept. 2020 de 08h15 à 10h15 ven. 18 déc. 2020 de 15h45 à 17h45 36h00 18
+Mécanique analytique
+mar. 15 sept. 2020 de 10h30 à 12h30 mar. 08 déc. 2020 de 08h15 à 10h15 50h00 25
+Physique atom. et molé.
+lun. 01 févr. 2021 de 08h15 à 10h15 jeu. 29 avr. 2021 de 13h30 à 15h30 18h00 9
+Physique nucléaire I Theorie
+jeu. 04 févr. 2021 de 13h30 à 15h30 mar. 23 mars 2021 de 15h45 à 17h45 20h00 10
+Prob. et stat. II (A)
+jeu. 17 sept. 2020 de 08h15 à 10h15 ven. 18 déc. 2020 de 13h30 à 15h30 30h00 15

@@ -41,3 +41,11 @@ OptmLin
 mar. 15 sept. 2020 de 08h15 à 10h15 ven. 06 nov. 2020 de 10h30 à 12h30 28h00 14
 Projet de réseaux I
 mer. 03 févr. 2021 de 13h30 à 15h30 ven. 07 mai 2021 de 08h15 à 10h15 28h30 12
+Projet Génie logiciel
+mer. 16 sept. 2020 de 13h30 à 15h30 mer. 28 avr. 2021 de 10h15 à 17h15 33h00 13
+Réseaux I
+mar. 02 févr. 2021 de 08h15 à 10h15 mar. 04 mai 2021 de 08h15 à 10h15 32h00 16
+Structures de données I
+lun. 01 févr. 2021 de 13h30 à 15h30 ven. 07 mai 2021 de 10h30 à 12h30 60h00 30
+Systèmes d'exploitation
+mar. 15 sept. 2020 de 13h30 à 15h30 jeu. 17 déc. 2020 de 13h30 à 15h30 60h00 30

@@ -1,0 +1,45 @@
+.BAB1 - Ing. civil architecte - lun. 14 sept. à 00h00 au mer. 19 mai à 17h30
+_
+mer. 02 déc. 2020 de 12h30 à 17h30 mer. 02 déc. 2020 de 12h30 à 17h30 05h00 1
+Algèbre 1
+mar. 22 sept. 2020 de 08h15 à 10h15 lun. 30 nov. 2020 de 10h30 à 12h30 40h00 20
+Algèbre2
+mer. 03 févr. 2021 de 08h15 à 10h15 mer. 03 mars 2021 de 10h30 à 12h30 20h00 10
+Analyse1
+mar. 15 sept. 2020 de 10h30 à 12h30 mar. 08 déc. 2020 de 08h15 à 10h15 48h00 24
+Analyse2
+mar. 02 févr. 2021 de 08h15 à 10h15 ven. 14 mai 2021 de 10h30 à 12h30 44h00 22
+CinMethEnerg
+lun. 01 févr. 2021 de 08h15 à 10h15 mer. 12 mai 2021 de 10h30 à 12h30 48h00 24
+CommunicGraph
+mar. 20 avr. 2021 de 08h30 à 11h30 mar. 27 avr. 2021 de 08h30 à 11h30 06h00 2
+CommunOral
+jeu. 17 sept. 2020 de 08h15 à 09h15 jeu. 10 déc. 2020 de 08h15 à 09h15 12h00 12
+Electromagnetism
+lun. 01 févr. 2021 de 10h30 à 12h30 mer. 31 mars 2021 de 08h30 à 11h30 36h00 17
+Evénement - DCOM
+lun. 14 sept. 2020 de 16h30 à 01h00 jeu. 01 oct. 2020 de 16h30 à 20h00 12h00 2
+Geocom
+ven. 25 sept. 2020 de 08h15 à 10h15 ven. 11 déc. 2020 de 10h30 à 12h30 52h00 21
+HistArch
+lun. 21 sept. 2020 de 13h30 à 15h30 lun. 07 déc. 2020 de 13h30 à 15h30 36h00 18
+InitCompréhArchi
+mar. 15 sept. 2020 de 13h30 à 15h30 mer. 09 déc. 2020 de 10h30 à 12h30 36h00 18
+IntroArchitecton
+ven. 26 mars 2021 de 13h30 à 15h30 ven. 14 mai 2021 de 15h45 à 17h45 24h00 12
+IntroDesStruct1
+ven. 05 févr. 2021 de 08h15 à 10h15 ven. 14 mai 2021 de 08h15 à 10h15 24h00 12
+IntroDesStruct2
+lun. 22 févr. 2021 de 13h30 à 17h30 lun. 08 mars 2021 de 13h30 à 17h30 12h00 3
+Matière à préciser
+mer. 16 sept. 2020 de 13h30 à 17h30 mer. 19 mai 2021 de 13h30 à 17h30 104h00 26
+Optique et ondes
+mar. 15 sept. 2020 de 08h15 à 10h15 jeu. 15 oct. 2020 de 20h15 à 22h15 24h00 11
+Philosophie - AAEP
+mar. 02 févr. 2021 de 13h15 à 15h15 mar. 11 mai 2021 de 13h15 à 16h30 29h45 13
+ProArch1ConcMan
+jeu. 17 sept. 2020 de 09h15 à 12h15 jeu. 10 déc. 2020 de 13h30 à 16h30 72h00 24
+ProArch2PtEquip
+jeu. 04 févr. 2021 de 09h15 à 12h15 lun. 10 mai 2021 de 13h30 à 16h30 72h00 24
+StatStatAppl
+mer. 16 sept. 2020 de 08h15 à 10h15 mar. 08 déc. 2020 de 10h30 à 12h30 24h00 12

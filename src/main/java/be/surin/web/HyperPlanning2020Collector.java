@@ -37,7 +37,15 @@ public class HyperPlanning2020Collector {
         String BAB1INFO = "//*[@id=\"GInterface.Instances[1].Instances[1]_14\"]";
         String BAB2INFO = "//*[@id=\"GInterface.Instances[1].Instances[1]_38\"]";
         String BAB3INFO = "//*[@id=\"GInterface.Instances[1].Instances[1]_61\"]";
+        //0-195
 
+        String optionXpath1 = "//*[@id=\"GInterface.Instances[1].Instances[1]_";
+        String optionXpath2 = "\"]";
+        String[] allOptionArray = new String[196];
+        for (int course=0; course<=195; course++) {
+            allOptionArray[course] = optionXpath1 + course + optionXpath2;
+        }
+        /* old array for only bab1 to 3 math and info
         String[] optionArray = {
                 //math
                 "//*[@id=\"GInterface.Instances[1].Instances[1]_15\"]",
@@ -48,26 +56,8 @@ public class HyperPlanning2020Collector {
                 "//*[@id=\"GInterface.Instances[1].Instances[1]_38\"]",
                 "//*[@id=\"GInterface.Instances[1].Instances[1]_61\"]"
         };
+        */
 
-        /*
-        BAC1-Physique
--
-BAC2-Physique
--
-BAC3-Physique
--
-BAC1-Biologie
--
-BAC2-Biologie
--
-BAC3-Biologie
--
-BAC1-Chimie
--
-BAC2-Chimie
--
-BAC3-Chimie
-         */
         String buttonEdit = "//*[@id=\"GInterface.Instances[1].Instances[1].bouton_Edit\"]";
         String scrollBar = "//*[@id=\"GInterface.Instances[1].Instances[1]_ContenuScroll\"]";
         String weekBar = "//*[@id=\"GInterface.Instances[1].Instances[4]_Calendrier\"]";
@@ -80,14 +70,13 @@ BAC3-Chimie
         System.setProperty("webdriver.gecko.driver", geckoDriverPath);
 
         FirefoxOptions fxOption = new FirefoxOptions();
-        fxOption.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors");
-        FirefoxDriver driver = new FirefoxDriver(fxOption);
+        fxOption.addArguments("--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors");
 
+        FirefoxDriver driver = new FirefoxDriver(fxOption);
         WebDriverWait wait = new WebDriverWait(driver, 100);
         driver.navigate().to(url);
 
-        //TODO only for BAB2 math for now, change i=1 to i=0 and uncomment optionArray.length for full loop over BaB1 to 3 math and info
-        for(int i=0; i<optionArray.length; i++) {
+        for(int i=76; i<allOptionArray.length; i++) {
 
             // Click the scrollbar (after it's loaded)
             wait.until(ExpectedConditions.elementToBeClickable(By.xpath(buttonEdit)));
@@ -95,13 +84,17 @@ BAC3-Chimie
 
             // Find the option button and click it
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(scrollBar)));
-            driver.findElement(By.xpath(optionArray[i])).click();
+            driver.findElement(By.xpath(allOptionArray[i])).click();
 
             // Click to go to "récapitulatif des cours"
             wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(recap)));
             driver.findElement(By.xpath(recap)).click();
             List<WebElement> rows = driver.findElements(By.xpath(table));
-            FileUtils.writeStringToFile(new File("src\\main\\resources\\course"+i+".txt"), rows.get(0).getText());
+            if (rows.size() != 0) {
+                FileUtils.writeStringToFile(new File("misc\\courses\\course" + i + ".txt"), rows.get(0).getText());
+            } else {
+                FileUtils.writeStringToFile(new File("misc\\courses\\course" + i + ".txt"), "PAS DE COURS");
+            }
 
         }
         driver.quit();

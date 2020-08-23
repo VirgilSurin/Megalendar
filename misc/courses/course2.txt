@@ -1,0 +1,45 @@
+.BAB1 - Ing. civil - lun. 14 sept. à 00h00 au mer. 19 mai à 17h30
+_
+mer. 02 déc. 2020 de 12h30 à 17h30 mar. 16 févr. 2021 de 13h30 à 18h30 10h00 2
+Algèbre 1
+mar. 22 sept. 2020 de 08h15 à 10h15 lun. 30 nov. 2020 de 10h30 à 12h30 40h00 20
+Algèbre2
+mer. 03 févr. 2021 de 08h15 à 10h15 mer. 03 mars 2021 de 10h30 à 12h30 20h00 10
+Analyse1
+mar. 15 sept. 2020 de 10h30 à 12h30 mer. 09 déc. 2020 de 10h30 à 12h30 72h00 36
+Analyse2
+mar. 02 févr. 2021 de 08h15 à 10h15 ven. 14 mai 2021 de 10h30 à 12h30 66h00 33
+ArtIngénieur
+mar. 15 sept. 2020 de 13h30 à 15h30 lun. 19 oct. 2020 de 10h30 à 12h30 12h00 6
+CinMethEnerg
+lun. 01 févr. 2021 de 08h15 à 10h15 mer. 12 mai 2021 de 10h30 à 12h30 48h00 24
+ElecMagnét
+lun. 22 févr. 2021 de 13h30 à 15h30 ven. 14 mai 2021 de 08h30 à 11h30 79h00 34
+EltsChimOrg
+jeu. 04 févr. 2021 de 08h15 à 10h15 ven. 07 mai 2021 de 10h30 à 12h30 65h00 27
+EltsChimPhys
+mer. 16 sept. 2020 de 10h30 à 12h30 jeu. 19 nov. 2020 de 13h30 à 16h30 86h00 35
+English I - part 1
+lun. 02 nov. 2020 de 13h30 à 15h30 jeu. 10 déc. 2020 de 10h30 à 12h30 24h00 12
+English I - part 2
+lun. 01 févr. 2021 de 13h30 à 15h30 ven. 14 mai 2021 de 13h30 à 15h30 192h00 96
+EntrFaceMarch
+mar. 02 févr. 2021 de 13h30 à 15h30 mer. 10 mars 2021 de 10h30 à 12h30 24h00 12
+EnvProcInd
+lun. 01 févr. 2021 de 10h30 à 12h30 ven. 23 avr. 2021 de 13h30 à 17h30 72h00 24
+Evénement - DCOM
+lun. 14 sept. 2020 de 16h30 à 01h00 jeu. 01 oct. 2020 de 16h30 à 20h00 12h00 2
+Geocom
+ven. 25 sept. 2020 de 08h15 à 10h15 mar. 15 déc. 2020 de 13h30 à 17h30 112h00 36
+ImagProjProf
+jeu. 05 nov. 2020 de 10h30 à 12h30 mer. 09 déc. 2020 de 08h15 à 10h15 12h00 6
+Matière à préciser
+mer. 16 sept. 2020 de 13h30 à 17h30 mer. 19 mai 2021 de 13h30 à 17h30 104h00 26
+NotFondEltsOpt
+mar. 15 sept. 2020 de 08h15 à 10h15 ven. 11 déc. 2020 de 13h30 à 16h30 107h00 44
+PremProjIng
+ven. 18 sept. 2020 de 13h30 à 17h30 lun. 14 déc. 2020 de 13h30 à 17h30 96h00 24
+StatStatAppl
+mer. 16 sept. 2020 de 08h15 à 10h15 mar. 08 déc. 2020 de 10h30 à 12h30 24h00 12
+StructDonAlgor
+ven. 05 févr. 2021 de 10h30 à 12h30 lun. 10 mai 2021 de 10h30 à 12h30 136h00 44

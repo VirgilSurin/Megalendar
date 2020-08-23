@@ -1,0 +1,53 @@
+.BAB2 - Ing. civil - lun. 14 sept. à 00h00 au ven. 14 mai à 17h30
+_
+mar. 27 oct. 2020 de 13h30 à 16h30 mar. 16 févr. 2021 de 13h30 à 18h30 13h00 3
+AnalNum
+mer. 16 sept. 2020 de 08h15 à 10h15 ven. 11 déc. 2020 de 08h30 à 11h30 54h00 25
+BasesThermo
+mer. 16 sept. 2020 de 15h45 à 17h45 mer. 09 déc. 2020 de 08h15 à 10h15 42h00 21
+ChimReact
+mar. 02 févr. 2021 de 10h30 à 12h30 jeu. 06 mai 2021 de 10h30 à 12h30 105h00 43
+ChoixMat
+jeu. 05 nov. 2020 de 13h30 à 15h30 jeu. 10 déc. 2020 de 13h30 à 16h30 38h00 15
+ConcProfProf
+mar. 16 mars 2021 de 08h00 à 17h30 mar. 16 mars 2021 de 08h00 à 17h30 09h30 1
+CptsDynam
+lun. 30 nov. 2020 de 08h15 à 10h15 lun. 14 déc. 2020 de 13h30 à 16h30 30h00 11
+DynSysMeca
+lun. 14 sept. 2020 de 08h15 à 10h15 mar. 08 déc. 2020 de 13h30 à 16h30 87h00 38
+Electromagnét
+mer. 03 févr. 2021 de 08h15 à 10h15 mer. 12 mai 2021 de 13h30 à 17h30 78h00 27
+English II - part 1
+jeu. 17 sept. 2020 de 15h45 à 17h45 ven. 11 déc. 2020 de 13h30 à 15h30 96h00 48
+English II - part 2
+mar. 02 févr. 2021 de 08h15 à 10h15 mer. 12 mai 2021 de 13h30 à 15h30 96h00 48
+Evénement - DCOM
+lun. 14 sept. 2020 de 16h30 à 01h00 jeu. 01 oct. 2020 de 16h30 à 20h00 12h00 2
+FoncVarCompl
+mer. 04 nov. 2020 de 10h30 à 12h30 mer. 09 déc. 2020 de 10h30 à 12h30 12h00 6
+MéthodoOrObj
+ven. 18 sept. 2020 de 08h15 à 10h15 mar. 01 déc. 2020 de 08h30 à 11h30 90h00 33
+OutPilotProjComSc
+lun. 01 févr. 2021 de 08h15 à 10h15 mar. 09 mars 2021 de 10h30 à 12h30 12h00 6
+PhenomOndul
+jeu. 17 sept. 2020 de 08h15 à 10h15 mar. 08 déc. 2020 de 10h30 à 12h30 24h00 12
+PhysMod
+lun. 01 févr. 2021 de 10h30 à 12h30 lun. 10 mai 2021 de 10h30 à 12h30 120h00 36
+Proba
+ven. 05 févr. 2021 de 08h15 à 10h15 ven. 12 mars 2021 de 10h30 à 12h30 24h00 12
+ProjTechno
+ven. 05 févr. 2021 de 13h30 à 17h30 ven. 14 mai 2021 de 13h30 à 17h30 52h00 13
+PropStructMat
+mar. 15 sept. 2020 de 10h30 à 12h30 ven. 30 oct. 2020 de 13h30 à 16h30 46h00 19
+RentEntr
+mar. 15 sept. 2020 de 13h30 à 15h30 jeu. 29 oct. 2020 de 08h15 à 10h15 24h00 12
+SignSystCde
+jeu. 04 févr. 2021 de 08h15 à 10h15 lun. 10 mai 2021 de 08h15 à 10h15 66h00 25
+Stat
+ven. 26 mars 2021 de 08h15 à 10h15 mar. 11 mai 2021 de 10h30 à 12h30 24h00 12
+SysEquaDiff
+lun. 14 sept. 2020 de 10h30 à 12h30 mer. 21 oct. 2020 de 13h30 à 15h30 36h00 18
+ThermoTech
+jeu. 04 févr. 2021 de 10h30 à 12h30 jeu. 29 avr. 2021 de 08h15 à 10h15 21h00 11
+TravThermo
+lun. 01 févr. 2021 de 13h30 à 16h30 mar. 09 mars 2021 de 13h30 à 16h30 60h00 20

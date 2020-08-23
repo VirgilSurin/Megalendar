@@ -41,3 +41,21 @@ Physique générale III (A)
 mar. 15 sept. 2020 de 10h30 à 12h30 jeu. 17 déc. 2020 de 10h30 à 12h30 44h00 21
 Prob. stat. I (A)
 mer. 16 sept. 2020 de 15h45 à 17h45 mer. 16 déc. 2020 de 15h45 à 17h45 28h00 14
+Prob. stat. I (B)
+jeu. 04 févr. 2021 de 13h30 à 15h30 jeu. 06 mai 2021 de 13h30 à 15h30 28h00 14
+Program.fonct.
+mer. 16 sept. 2020 de 10h30 à 12h30 ven. 11 déc. 2020 de 13h30 à 15h30 28h00 14
+Projet d'informatique
+mar. 09 févr. 2021 de 15h45 à 17h45 lun. 10 mai 2021 de 15h45 à 17h45 22h00 11
+Sém. Introd. log. math. I
+mar. 15 sept. 2020 de 08h15 à 10h15 jeu. 17 déc. 2020 de 08h15 à 10h15 30h00 15
+Sém.Intro.logique math. II
+ven. 12 févr. 2021 de 13h30 à 15h30 ven. 14 mai 2021 de 10h30 à 12h30 33h00 15
+Simulation
+mer. 03 févr. 2021 de 15h45 à 17h45 mer. 12 mai 2021 de 08h15 à 10h15 26h00 13
+Structures de données I
+lun. 01 févr. 2021 de 13h30 à 15h30 ven. 07 mai 2021 de 10h30 à 12h30 60h00 30
+Théorie des groupes
+mar. 02 févr. 2021 de 08h15 à 10h15 lun. 03 mai 2021 de 15h45 à 17h45 52h00 26
+TP phys gén III (Partie B)
+mer. 30 sept. 2020 de 13h30 à 16h45 mer. 09 déc. 2020 de 08h15 à 12h30 24h30 6

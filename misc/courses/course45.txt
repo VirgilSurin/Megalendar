@@ -1,0 +1,61 @@
+.BAB2 - Traduction et interprétation - lun. 14 sept. à 00h00 au ven. 14 mai à 17h30
+_
+mer. 23 sept. 2020 de 11h30 à 12h30 mer. 12 mai 2021 de 11h30 à 12h30 25h00 25
+ADEO (partie a)
+mar. 22 sept. 2020 de 10h30 à 11h30 mer. 16 déc. 2020 de 11h30 à 12h30 126h00 126
+ADEO (partie b)
+mar. 02 févr. 2021 de 10h30 à 11h30 mer. 12 mai 2021 de 11h30 à 12h30 130h00 130
+CE/QL
+mar. 22 sept. 2020 de 10h30 à 11h30 jeu. 17 déc. 2020 de 18h00 à 19h00 77h00 77
+CO
+mar. 02 févr. 2021 de 11h30 à 12h30 mar. 11 mai 2021 de 18h00 à 19h00 82h00 69
+CP ALLE
+lun. 01 févr. 2021 de 08h15 à 10h15 lun. 10 mai 2021 de 14h30 à 16h30 52h00 26
+CP ANGL
+jeu. 04 févr. 2021 de 08h15 à 10h15 jeu. 06 mai 2021 de 08h15 à 10h15 24h00 12
+CP ARAB
+mer. 03 févr. 2021 de 10h30 à 12h30 mer. 12 mai 2021 de 10h30 à 12h30 26h00 13
+CP CHIN
+mer. 03 févr. 2021 de 15h45 à 17h45 mer. 12 mai 2021 de 15h45 à 17h45 26h00 13
+CP DAN
+mar. 02 févr. 2021 de 13h30 à 15h30 mar. 11 mai 2021 de 13h30 à 15h30 26h00 13
+CP ESPA
+lun. 01 févr. 2021 de 14h30 à 15h30 ven. 14 mai 2021 de 11h30 à 12h30 52h00 52
+CP ITAL
+lun. 01 févr. 2021 de 10h30 à 12h30 lun. 10 mai 2021 de 10h30 à 12h30 26h00 13
+CP NEER
+mar. 02 févr. 2021 de 15h45 à 17h45 mer. 12 mai 2021 de 13h30 à 15h30 52h00 26
+CP RUSS
+lun. 01 févr. 2021 de 08h15 à 09h15 mer. 12 mai 2021 de 13h30 à 15h30 39h00 26
+DIP
+ven. 25 sept. 2020 de 16h45 à 19h45 ven. 18 déc. 2020 de 16h45 à 18h45 30h00 13
+Eco. Pol.
+ven. 18 sept. 2020 de 13h30 à 16h30 ven. 18 déc. 2020 de 13h30 à 16h30 38h00 14
+Evénement - DCOM
+lun. 14 sept. 2020 de 16h30 à 01h00 jeu. 01 oct. 2020 de 16h30 à 20h00 12h00 2
+Info 1
+ven. 05 févr. 2021 de 13h30 à 17h30 ven. 14 mai 2021 de 13h30 à 17h30 52h00 13
+LE ALLE (partie a)
+lun. 21 sept. 2020 de 14h30 à 16h30 lun. 14 déc. 2020 de 14h30 à 16h30 14h00 7
+LE ALLE (partie b)
+lun. 01 févr. 2021 de 12h30 à 13h30 lun. 10 mai 2021 de 12h30 à 13h30 25h00 25
+LE ANGL (partie a)
+lun. 21 sept. 2020 de 08h15 à 09h15 ven. 18 déc. 2020 de 10h30 à 12h30 169h00 130
+LE ANGL (partie b)
+lun. 01 févr. 2021 de 08h15 à 09h15 ven. 14 mai 2021 de 10h30 à 12h30 151h00 101
+LE ARAB (partie a)
+lun. 21 sept. 2020 de 11h30 à 13h30 lun. 14 déc. 2020 de 11h30 à 13h30 26h00 13
+LE ARAB (partie b)
+lun. 01 févr. 2021 de 11h30 à 13h30 lun. 10 mai 2021 de 11h30 à 13h30 26h00 13
+LE CHIN (partie a)
+lun. 21 sept. 2020 de 14h30 à 15h30 mer. 16 déc. 2020 de 10h30 à 11h30 38h00 38
+LE CHIN (partie b)
+lun. 01 févr. 2021 de 14h30 à 15h30 mer. 12 mai 2021 de 10h30 à 11h30 39h00 39
+LE DAN (partie a)
+mar. 22 sept. 2020 de 09h15 à 10h15 ven. 18 déc. 2020 de 09h15 à 10h15 26h00 26
+LE DAN (partie b)
+ven. 05 févr. 2021 de 08h15 à 10h15 ven. 19 mars 2021 de 08h15 à 10h15 14h00 7
+LE ESPA (partie a)
+jeu. 24 sept. 2020 de 08h15 à 10h15 jeu. 17 déc. 2020 de 15h45 à 17h45 50h45 26
+LE ESPA (partie b)
+mer. 03 févr. 2021 de 15h45 à 17h45 mer. 12 mai 2021 de 15h45 à 17h45 50h00 25

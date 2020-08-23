@@ -1,0 +1,61 @@
+.BAB1 - Sc. pharmaceutiques - lun. 14 sept. à 00h00 au ven. 21 mai à 21h00
+_
+lun. 14 sept. 2020 de 08h00 à 10h00 ven. 21 mai 2021 de 08h00 à 21h00 75h00 10
+Biochimie générale
+mer. 03 févr. 2021 de 10h30 à 12h30 mar. 11 mai 2021 de 08h15 à 10h15 44h00 22
+Biochimie générale T.P.
+jeu. 04 mars 2021 de 13h30 à 18h30 mar. 20 avr. 2021 de 10h30 à 12h30 32h00 7
+Biologie générale humaine
+mar. 15 sept. 2020 de 10h30 à 13h00 mar. 27 avr. 2021 de 10h30 à 12h30 94h00 41
+Biologie générale humaine T.P.
+lun. 19 oct. 2020 de 13h30 à 17h30 ven. 27 nov. 2020 de 13h30 à 17h30 16h00 4
+Botanique (partie B)
+lun. 15 mars 2021 de 08h30 à 12h30 ven. 07 mai 2021 de 13h30 à 17h30 64h00 16
+Chim gen
+mer. 03 févr. 2021 de 13h30 à 15h30 lun. 08 févr. 2021 de 08h15 à 10h15 04h00 2
+Chim org
+mar. 16 févr. 2021 de 15h45 à 17h45 mar. 16 févr. 2021 de 15h45 à 17h45 02h00 1
+Chimie générale I
+ven. 18 sept. 2020 de 10h30 à 12h30 ven. 18 déc. 2020 de 08h15 à 10h15 43h00 21
+Chimie générale I T.P.
+lun. 21 sept. 2020 de 13h30 à 15h30 ven. 11 déc. 2020 de 08h15 à 10h15 74h30 20
+Chimie générale II
+mar. 02 févr. 2021 de 10h30 à 12h30 mer. 12 mai 2021 de 10h30 à 12h30 32h00 16
+Chimie générale II T.P.
+lun. 01 févr. 2021 de 13h30 à 17h30 lun. 10 mai 2021 de 15h45 à 17h45 50h00 14
+Chimie organique I
+mer. 16 sept. 2020 de 08h00 à 10h00 mar. 15 déc. 2020 de 10h30 à 12h30 30h00 15
+Chimie organique I T.P.
+lun. 05 oct. 2020 de 13h30 à 18h30 mer. 16 déc. 2020 de 13h30 à 15h30 60h00 13
+Chimie organique II
+mar. 02 févr. 2021 de 08h15 à 10h15 mar. 20 avr. 2021 de 08h15 à 10h15 20h00 10
+Chimie organique II T.P.
+jeu. 04 mars 2021 de 13h30 à 17h30 mar. 30 mars 2021 de 17h45 à 19h45 14h00 4
+Connaissance du médicament
+ven. 05 févr. 2021 de 10h30 à 12h30 mar. 02 mars 2021 de 13h30 à 15h30 10h00 5
+Elem. bota. A.
+mar. 02 févr. 2021 de 15h45 à 17h45 mar. 04 mai 2021 de 08h15 à 10h15 30h00 15
+English, part 1
+lun. 14 sept. 2020 de 14h00 à 16h00 lun. 14 sept. 2020 de 14h00 à 16h00 02h00 1
+Evénement - DCOM
+lun. 14 sept. 2020 de 16h30 à 01h00 jeu. 01 oct. 2020 de 16h30 à 20h00 12h00 2
+Intro anatomie humaine
+mar. 16 mars 2021 de 13h30 à 16h30 mar. 27 avr. 2021 de 13h30 à 16h30 15h00 5
+Intro chimie générale I
+mar. 15 sept. 2020 de 13h30 à 15h30 jeu. 17 sept. 2020 de 13h30 à 15h30 06h00 3
+Intro Math sciences de la vie
+mar. 15 sept. 2020 de 08h00 à 10h00 jeu. 17 déc. 2020 de 10h30 à 12h30 44h00 22
+Intro statistiques bioméd
+lun. 21 sept. 2020 de 08h00 à 10h00 lun. 09 nov. 2020 de 08h00 à 10h00 16h00 8
+Math appl sciences de la vie
+jeu. 04 févr. 2021 de 08h15 à 10h15 ven. 07 mai 2021 de 08h15 à 10h15 52h00 26
+Mathématique appliquée
+jeu. 18 févr. 2021 de 15h45 à 17h45 jeu. 18 févr. 2021 de 15h45 à 17h45 02h00 1
+Physique bioméd I
+ven. 09 oct. 2020 de 10h30 à 12h30 mer. 16 déc. 2020 de 15h45 à 17h45 50h00 25
+Physique I T.P.
+jeu. 01 oct. 2020 de 13h30 à 16h30 jeu. 17 déc. 2020 de 13h30 à 18h30 64h00 16
+Physique II
+lun. 01 févr. 2021 de 10h30 à 12h30 ven. 14 mai 2021 de 10h30 à 12h30 70h00 35
+Physique II T.P.
+mar. 02 févr. 2021 de 12h30 à 13h30 ven. 14 mai 2021 de 13h30 à 15h30 87h00 32
