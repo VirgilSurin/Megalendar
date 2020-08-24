@@ -20,75 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04ede019-031a-4410-9ef3-958c9ca0f2ee" name="Default Changelist" comment="rick roll removed + firefox headless mode">
-      <change afterPath="$PROJECT_DIR$/misc/courses/course0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course20.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course21.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course22.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course23.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course24.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course25.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course26.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course27.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course28.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course29.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course30.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course31.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course32.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course33.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course34.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course35.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course36.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course37.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course40.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course41.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course42.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course43.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course44.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course45.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course46.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course47.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course48.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course49.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course50.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course51.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course52.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course53.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course54.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course55.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course56.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course57.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course58.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course59.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course60.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course63.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course64.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course65.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course66.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course67.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course68.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course69.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course70.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course71.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course72.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course73.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course74.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/courses/course9.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/fileHashes/fileHashes.bin" afterDir="false" />
@@ -96,16 +27,86 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/surin/web/HyperPlanning2020Collector.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/surin/web/HyperPlanning2020Collector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/course0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/misc/courses/course0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/misc/courses/course1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/misc/courses/course3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/misc/courses/course4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/misc/courses/course5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course51.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course53.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course54.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course56.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course58.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course59.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course60.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course61.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course62.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course63.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course64.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course65.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course66.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course67.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course68.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course69.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course70.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course71.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course72.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course73.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course74.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc/courses/course9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phantomjsdriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/phantomjsdriver.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/surin/web/HyperPlanning2020Collector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/surin/web/HyperPlanning2020Collector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/course0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/misc/courses/course15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/course1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/misc/courses/course39.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/course2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/misc/courses/course62.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/course3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/misc/courses/course14.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/course4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/misc/courses/course38.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/course5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/misc/courses/course61.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,9 +208,9 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="ics" />
   </component>
   <component name="RecentsManager">
@@ -363,6 +364,9 @@
       <workItem from="1598117110110" duration="13000" />
       <workItem from="1598121594626" duration="2124000" />
       <workItem from="1598133677666" duration="3760000" />
+      <workItem from="1598270786659" duration="135000" />
+      <workItem from="1598283888472" duration="4171000" />
+      <workItem from="1598293037171" duration="336000" />
     </task>
     <task id="LOCAL-00001" summary="calendar view from a git">
       <created>1593546292530</created>
@@ -514,58 +518,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="114" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593709781173" />
-    <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1598137661925">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="350" key="GridCell.Tab.0.bottom" timestamp="1598293375916">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="630" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598022262030" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
-    <state width="1877" height="273" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598136656996" />
+    <state width="1877" height="350" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598293375916" />
     <state width="1877" height="273" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598137661925" />
-    <state width="1877" height="273" key="GridCell.Tab.0.center" timestamp="1598137661925">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="350" key="GridCell.Tab.0.center" timestamp="1598293375916">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="630" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598022262030" />
     <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
-    <state width="1877" height="273" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598136656996" />
+    <state width="1877" height="350" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598293375916" />
     <state width="1877" height="273" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598137661925" />
-    <state width="1877" height="273" key="GridCell.Tab.0.left" timestamp="1598137661925">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="350" key="GridCell.Tab.0.left" timestamp="1598293375916">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="630" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598022262030" />
     <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164807" />
-    <state width="1877" height="273" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598136656995" />
+    <state width="1877" height="350" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598293375916" />
     <state width="1877" height="273" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598137661925" />
-    <state width="1877" height="273" key="GridCell.Tab.0.right" timestamp="1598137661925">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="350" key="GridCell.Tab.0.right" timestamp="1598293375916">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="630" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598022262030" />
     <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
-    <state width="1877" height="273" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598136656996" />
+    <state width="1877" height="350" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598293375916" />
     <state width="1877" height="273" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598137661925" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1598039624843">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1598289362515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596814428738" />
     <state width="1877" height="261" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164809" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598039624843" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1598039624843">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598289362515" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1598289362515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596814428738" />
     <state width="1877" height="261" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598039624843" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1598039624843">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598289362515" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1598289362515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596814428738" />
     <state width="1877" height="261" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164808" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598039624843" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1598039624843">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598289362515" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1598289362515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596814428738" />
     <state width="1877" height="261" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596303164809" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598039624843" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598289362515" />
     <state x="258" y="41" key="MergeDialog" timestamp="1598026347154">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -574,11 +578,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="672" y="236" key="MultipleFileMergeDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595541305343" />
-    <state x="318" y="112" key="SettingsEditor" timestamp="1597228501250">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="398" y="141" key="SettingsEditor" timestamp="1598288266105">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="318" y="112" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597228501250" />
-    <state x="398" y="141" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594651068079" />
+    <state x="398" y="141" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598288266105" />
     <state x="747" y="236" key="VCS.ChangeListViewerDialog" timestamp="1594655976086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
