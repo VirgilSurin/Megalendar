@@ -2,12 +2,14 @@ package be.surin.web;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -118,20 +120,28 @@ public class HyperPlanning2020Collector {
              */
             //New try
             int k = 2;
+            int cnt = 0;
             try {
                 while (true) {
                     //get every row until exception is raised and write it in a file for the specific option
                     //FileUtils.writeStringToFile(course, driver.findElement(By.xpath(rowPart1 + k + rowPart2)).getText());
-                    String element = driver.findElement(By.xpath(rowPart1 + k + rowPart2)).getText();
-                    System.out.println(element);
-                    System.out.println("--------------------------------------------------------");
-                    k += 2;
+                    String name = driver.findElement(By.xpath("/html/body/div[3]/div[1]/table/tbody/tr[2]/td/table/tbody/tr[2]/td/div/div[2]/div/div[1]/table[1]/tbody/tr[" + k + "]/td[1]")).getText();
+                    if (name.equals("")) {
+                        driver.findElement(By.xpath("/html/body/div[3]/div[1]/table/tbody/tr[2]/td/table/tbody/tr[2]/td/div/div[2]/div/div[2]/a[2]")).click();
+                        cnt++;
+                    }
+                    else {
+                        System.out.println(name);
+                        System.out.println("--------------------------------------------------------");
+                        k += 2;
+                    }
                 }
             } catch (org.openqa.selenium.NoSuchElementException e ) {
+                for (int j = 0; j < cnt; j++)
+                    driver.findElement(By.xpath("/html/body/div[3]/div[1]/table/tbody/tr[2]/td/table/tbody/tr[2]/td/div/div[2]/div/div[2]/a[1]")).click();
                 //no more row, gotta move to the next option
                 System.out.println("no more row, move on");
             }
-
         }
         driver.quit();
 
